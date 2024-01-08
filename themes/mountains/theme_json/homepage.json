@@ -1,0 +1,164 @@
+[
+    {
+        "section_name": "Home - Header",
+        "section_slug": "homepage-header",
+        "unique_section_slug": "homepage-header",
+        "section_enable": "on",
+        "array_type": "multi-inner-list",
+        "loop_number": "3",
+        "inner-list": [
+            {
+                "field_name": "Background Image",
+                "field_slug": "homepage-header-bg-img",
+                "field_help_text": "Please upload image from here",
+                "field_default_text": "themes/mountains/assets/img/header.png",
+                "field_type": "photo upload"
+            },
+            {
+                "field_name": "Label",
+                "field_slug": "homepage-header-label",
+                "field_help_text": "Please add label text here",
+                "field_default_text": "MOUNTAIN",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-header-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "The place of a true mountain climber ",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Text",
+                "field_slug": "homepage-header-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry..",
+                "field_type": "text area"
+            },
+            {
+                "field_name": "Button Text",
+                "field_slug": "homepage-header-btn-text",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "All products",
+                "field_type": "button"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Category",
+        "section_slug": "homepage-category",
+        "unique_section_slug": "homepage-category",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Label",
+                "field_slug": "homepage-category-label",
+                "field_help_text": "Please add label text here",
+                "field_default_text": "MOUNTAIN",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-category-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "The place of a true mountain climber ",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Products",
+        "section_slug": "homepage-products",
+        "unique_section_slug": "homepage-products",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-products-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "true mountain climber ",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Text",
+                "field_slug": "homepage-products-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+                "field_type": "text area"
+            },
+            {
+                "field_name": "Background Image",
+                "field_slug": "homepage-header-bg-img",
+                "field_help_text": "Please upload image from here",
+                "field_default_text": "themes/mountains/assets/img/home_banner.png",
+                "field_type": "photo upload"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Testimonial",
+        "section_slug": "homepage-testimonial",
+        "unique_section_slug": "homepage-testimonial",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Label",
+                "field_slug": "homepage-testimonial-label",
+                "field_help_text": "Please add label text here",
+                "field_default_text": "MOUNTAIN",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-testimonial-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "The place of a true mountain climber ",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Text",
+                "field_slug": "homepage-testimonial-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "field_type": "text area"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Bestseller",
+        "section_slug": "homepage-bestseller",
+        "unique_section_slug": "homepage-bestseller",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Label",
+                "field_slug": "homepage-bestseller-label",
+                "field_help_text": "Please add label text here",
+                "field_default_text": "MOUNTAIN",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-bestseller-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "BESTSELLERS",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Text",
+                "field_slug": "homepage-bestseller-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "field_type": "text area"
+            }
+        ]
+    }
+]

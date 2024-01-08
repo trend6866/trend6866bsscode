@@ -1,0 +1,771 @@
+[
+    {
+        "section_name": "Home - Top - Header",
+        "section_slug": "homepage-main-header",
+        "unique_section_slug": "homepage-main-header",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Icon Image",
+                "field_slug": "homepage-header-icon-image",
+                "field_help_text": "please upload image here",
+                "field_default_text": "themes/kidscare/assets/img/email.png",
+                "field_type": "photo upload"
+            },
+            {
+                "field_name": "Title",
+                "field_slug": "homepage-header-title",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "<b>7 days a week </b>from 9:00 am to 7:00 pm",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Lable",
+                "field_slug": "homepage-header-label",
+                "field_help_text": "please add lable text here",
+                "field_default_text": "Call us : ",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Link",
+                "field_slug": "homepage-header-link",
+                "field_help_text": "Please add label link here",
+                "field_default_text": "610-403-403",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Call Icon image",
+                "field_slug": "homepage-header-call-icon-image",
+                "field_help_text": "please upload image here",
+                "field_default_text": "themes/kidscare/assets/img/call.png ",
+                "field_type": "photo upload"
+            }
+        ]
+    },
+    {
+        "section_name": "Home",
+        "section_slug": "homepage-header",
+        "unique_section_slug": "homepage-header-1",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title",
+                "field_slug": "homepage-header-title",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "<h2>Trendmark</h2><p><span>Sneakers 2022</span> Limited Edition</p>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub-Title",
+                "field_slug": "homepage-header-sub-title",
+                "field_help_text": "Please add sub title text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem Ipsum has been the industry's standard dummy.",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Video Title",
+                "field_slug": "homepage-header-video-title",
+                "field_help_text": "Please enter text from here",
+                "field_default_text": "Play Video",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Lable",
+                "field_slug": "homepage-header-lable",
+                "field_help_text": "Please add label link here",
+                "field_default_text": "EXPLORE",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Video Link",
+                "field_slug": "homepage-header-video-link",
+                "field_help_text": "Please enter video link from here",
+                "field_default_text": "https://www.youtube.com/embed/9xwazD5SyVg?autohide=0&branding=0&cc_load_policy=0&controls=1&fs=1&iv_load_policy=3&modestbranding=1&playsinline=1&quality=hd720&rel=1&showinfo=1&wmode=opaque&enablejsapi=1&origin=https%3A%2F%2Fjahmamasauce.com&widgetid=2",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Ellipse Ring",
+                "field_slug": "homepage-header-ellipse-ring",
+                "field_help_text": "please upload image here",
+                "field_default_text": "themes/kidscare/assets/img/ellipse.png",
+                "field_type": "photo upload"
+            }
+        ]
+    },
+    {
+        "section_name": "Homepage - Featured - One",
+        "section_slug": "homepage-featured-one",
+        "unique_section_slug": "homepage-featured-one",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Button Text",
+                "field_slug": "homepage-featured-one-button",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "FEATURED",
+                "field_type": "button"
+            }
+        ]
+    },
+    {
+        "section_name": "Homepage - Feature - Banner - One",
+        "section_slug": "homepage-feature-banner-one",
+        "unique_section_slug": "homepage-feature-banner-one",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Banner Image",
+                "field_slug": "homepage-feature-banner-one-image",
+                "field_help_text": "Please upload banner image from here",
+                "field_default_text": "themes/kidscare/assets/img/two-coll.jpg",
+                "field_type": "photo upload"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - All - Product",
+        "section_slug": "homepage-all-product",
+        "unique_section_slug": "homepage-all-product",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title",
+                "field_slug": "homepage-all-product-title",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "ALL  PRODUCTS",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub-Title",
+                "field_slug": "homepage-all-product-sub-title",
+                "field_help_text": "Please add sub title text here",
+                "field_default_text": "<h2>All the <b>Babycare</b></h2>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Button Text",
+                "field_slug": "homepage-all-product-button",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "SHOW MORE",
+                "field_type": "button"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Bestsellers",
+        "section_slug": "homepage-bestsellers",
+        "unique_section_slug": "homepage-bestsellers",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title",
+                "field_slug": "homepage-bestsellers-title",
+                "field_help_text": "Please add heading text here",
+                "field_default_text": "Best<b>sellers</b>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Button Text",
+                "field_slug": "homepage-bestsellers-button",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "SHOW MORE",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Product-bestsellers",
+        "section_slug": "homepage-product-bestsellers",
+        "unique_section_slug": "homepage-product-bestsellers",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title",
+                "field_slug": "homepage-product-bestsellers-title",
+                "field_help_text": "Please add  title text from here",
+                "field_default_text": "ALL PRODUCTS",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Title",
+                "field_slug": "homepage-product-bestsellers-sub-title",
+                "field_help_text": "Please add sub  title text from here",
+                "field_default_text": "<b>Bestsellers</b> products",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Button Text",
+                "field_slug": "homepage-product-bestsellers-sub-button-text",
+                "field_help_text": "Please add button text from here",
+                "field_default_text": "SHOW MORE",
+                "field_type": "button"
+            }
+        ]
+    },
+    {
+        "section_name": "Homepage - Featured - Two",
+        "section_slug": "homepage-featured-two",
+        "unique_section_slug": "homepage-featured-two",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Button Text",
+                "field_slug": "homepage-featured-two-button",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "FEATURED",
+                "field_type": "button"
+            }
+        ]
+    },
+    {
+        "section_name": "Homepage - Feature - Banner - Two",
+        "section_slug": "homepage-feature-banner-two",
+        "unique_section_slug": "homepage-feature-banner-two",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Banner Image",
+                "field_slug": "homepage-feature-banner-two-image",
+                "field_help_text": "Please upload banner image from here",
+                "field_default_text": "themes/kidscare/assets/img/two-colle.jpg",
+                "field_type": "photo upload"
+            }
+        ]
+    },
+
+    
+    {
+        "section_name": "Home - Sneakers",
+        "section_slug": "homepage-sneakers",
+        "unique_section_slug": "homepage-sneakers",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title",
+                "field_slug": "homepage-sneakers-title",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "ALL  PRODUCTS",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Title",
+                "field_slug": "homepage-sneakers-sub-title",
+                "field_help_text": "Please add sub title text here",
+                "field_default_text": "<h2>All the <b>Babycare</b></h2>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Button Text",
+                "field_slug": "homepage-sneakers-button",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "SHOW MORE",
+                "field_type": "button"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - About - Shoes",
+        "section_slug": "homepage-about-shoes",
+        "unique_section_slug": "homepage-about-shoes",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title",
+                "field_slug": "homepage-about-shoes-title",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "ALL  PRODUCTS",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Title",
+                "field_slug": "homepage-about-shoes-sub-title",
+                "field_help_text": "Please add sub title text here",
+                "field_default_text": "<h2>About  <b> our  Babycare</b></h2>",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Modern - Sneakers",
+        "section_slug": "homepage-modern-sneakers",
+        "unique_section_slug": "homepage-modern-sneakers",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title",
+                "field_slug": "homepage-modern-sneakers-title",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "ALL  PRODUCTS",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Title",
+                "field_slug": "homepage-modern-sneakers-sub-title",
+                "field_help_text": "Please add sub title text here",
+                "field_default_text": "<h2>Modern <b>Sneakers</b></h2>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Button Text",
+                "field_slug": "homepage-modern-sneakers-button",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "SHOW MORE",
+                "field_type": "button"
+            }
+        ]
+    },
+    {
+        "section_name": "Homepage - Featured - Three",
+        "section_slug": "homepage-featured-three",
+        "unique_section_slug": "homepage-featured-three",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "",
+        "inner-list": [
+            {
+                "field_name": "Button Text",
+                "field_slug": "homepage-featured-three-button",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "FEATURED",
+                "field_type": "text"
+            }
+        ]
+    },
+   
+    {
+        "section_name": "Home - Blog",
+        "section_slug": "homepage-blog",
+        "unique_section_slug": "homepage-blog",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title",
+                "field_slug": "homepage-blog-title",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "ALL  PRODUCTS",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Title",
+                "field_slug": "homepage-blog-sub-title",
+                "field_help_text": "Please add sub title text here",
+                "field_default_text": "<h2>From  <b>our blog</b></h2>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Button Text",
+                "field_slug": "homepage-blog-button",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "SHOW MORE ARTICLES",
+                "field_type": "button"
+            }
+        ]
+    },
+    {
+        "section_name": "Blog - Section",
+        "section_slug": "blogpage-blog-section",
+        "unique_section_slug": "blogpage-blog-section-1",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Heading",
+                "field_slug": "blogpage-blog-section-heading",
+                "field_help_text": "Please add heading text here",
+                "field_default_text": "<h2>Top Baby Toys trends  <b>for 2022 year</b> </h2>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Button",
+                "field_slug": "blogpage-blog-section-button",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "Go to Shop",
+                "field_type": "button"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Partners",
+        "section_slug": "homepage-partners",
+        "unique_section_slug": "homepage-partners",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title",
+                "field_slug": "homepage-partners-title",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "ALL  PRODUCTS",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Title",
+                "field_slug": "homepage-partners-sub-title",
+                "field_help_text": "Please add sub title text here",
+                "field_default_text": "<h2>Partners</h2>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Logo",
+                "field_slug": "homepage-partners-logo",
+                "field_help_text": "Please upload logo image from here",
+                "field_default_text": "themes/kidscare/assets/img/client-logo.png",
+                "field_type": "multi file upload"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - subscription",
+        "section_slug": "homepage-subscription",
+        "unique_section_slug": "homepage-subscription",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title",
+                "field_slug": "homepage-subscription-title",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "ALL PRODUCTS",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Title",
+                "field_slug": "homepage-subscription-sub-title",
+                "field_help_text": "Please add heading text here",
+                "field_default_text": "<h2>Get 20%   off<br><b>for first order</b></h2>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "description",
+                "field_slug": "homepage-subscription-sub-text",
+                "field_help_text": "Please add description text here",
+                "field_default_text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy.</p>",
+                "field_type": "text area"
+            }
+        ]
+    },
+    {
+        "section_name": "Banner Image",
+        "section_slug": "homepage-banner-sub",
+        "unique_section_slug": "homepage-banner-sub",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Homepage-Banner-Left",
+                "field_slug": "homepage-banner-sub-left",
+                "field_help_text": "Please upload  image from here",
+                "field_default_text": "themes/kidscare/assets/img/sub-left.png",
+                "field_type": "photo upload"
+            },
+            {
+                "field_name": "Homepage-Banner-Left",
+                "field_slug": "homepage-banner-sub-right",
+                "field_help_text": "Please upload  image from here",
+                "field_default_text": "themes/kidscare/assets/img/sub-right.png",
+                "field_type": "photo upload"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Footer",
+        "section_slug": "homepage-footer",
+        "unique_section_slug": "homepage-footer-1",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "logo",
+                "field_slug": "homepage-footer-logo",
+                "field_help_text": "Please upload logo image from here",
+                "field_default_text": "themes/kidscare/assets/img/client-logo.png",
+                "field_type": "photo upload"
+            },
+            {
+                "field_name": "Text",
+                "field_slug": "homepage-footer-text",
+                "field_help_text": "Please add  text here",
+                "field_default_text": "SNEAKERS 2022 EDITION",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Text",
+                "field_slug": "homepage-footer-sub-text",
+                "field_help_text": "Please add  sub text here",
+                "field_default_text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy.</p>",
+                "field_type": "text area"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Footer",
+        "section_slug": "homepage-footer",
+        "unique_section_slug": "homepage-footer-2",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Footer Quick Link Header Name 1",
+                "field_slug": "homepage-footer-title",
+                "field_help_text": "Please add quick link text here",
+                "field_default_text": "<h4> Navigation: </h4>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Enable section",
+                "field_slug": "homepage-footer-enable",
+                "field_help_text": "Please add quick link text here",
+                "field_default_text": "on",
+                "field_type": "checkbox"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Footer",
+        "section_slug": "homepage-footer",
+        "unique_section_slug": "homepage-footer-3",
+        "section_enable": "on",
+        "array_type": "multi-inner-list",
+        "loop_number": "5",
+        "inner-list": [
+            {
+                "field_name": "Quick Link",
+                "field_slug": "homepage-footer-sub-title",
+                "field_help_text": "Please add quick link text here",
+                "field_default_text": "Order status",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Quick Link Url",
+                "field_slug": "homepage-footer-link",
+                "field_help_text": "Please add link here",
+                "field_default_text": "#",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Footer ",
+        "section_slug": "homepage-footer",
+        "unique_section_slug": "homepage-footer-4",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Footer Quick Link Header Name 2",
+                "field_slug": "homepage-footer-title",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "<h4> EXTRA: </h4>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Enable",
+                "field_slug": "homepage-footer-enable",
+                "field_help_text": "",
+                "field_default_text": "on",
+                "field_type": "checkbox"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Footer",
+        "section_slug": "homepage-footer",
+        "unique_section_slug": "homepage-footer-5",
+        "section_enable": "on",
+        "array_type": "multi-inner-list",
+        "loop_number": "5",
+        "inner-list": [
+            {
+                "field_name": "Quick Link",
+                "field_slug": "homepage-footer-sub-title",
+                "field_help_text": "Please add quick link text here",
+                "field_default_text": "My Account",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Quick Link Url",
+                "field_slug": "homepage-footer-link",
+                "field_help_text": "Please add link here",
+                "field_default_text": "#",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Footer",
+        "section_slug": "homepage-footer",
+        "unique_section_slug": "homepage-footer-6",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Footer Quick Link Header Name 3",
+                "field_slug": "homepage-footer-title",
+                "field_help_text": "Please add  title text here",
+                "field_default_text": "<h4> CATEGORIES: </h4>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Enable",
+                "field_slug": "homepage-footer-enable",
+                "field_help_text": "",
+                "field_default_text": "on",
+                "field_type": "checkbox"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Footer",
+        "section_slug": "homepage-footer",
+        "unique_section_slug": "homepage-footer-7",
+        "section_enable": "on",
+        "array_type": "multi-inner-list",
+        "loop_number": "5",
+        "inner-list": [
+            {
+                "field_name": "Quick Link",
+                "field_slug": "homepage-footer-sub-title",
+                "field_help_text": "Please add quick link text here",
+                "field_default_text": "All Collections",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Quick Link Url",
+                "field_slug": "homepage-footer-link",
+                "field_help_text": "Please add link here",
+                "field_default_text": "#",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home-Footer",
+        "section_slug": "homepage-footer",
+        "unique_section_slug": "homepage-footer-8",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Footer Quick Link Header Name 4",
+                "field_slug": "homepage-footer-title",
+                "field_help_text": "Please add  title text here",
+                "field_default_text": "<h4> Quick Links: </h4>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Enable",
+                "field_slug": "homepage-footer-enable",
+                "field_help_text": "",
+                "field_default_text": "on",
+                "field_type": "checkbox"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Footer",
+        "section_slug": "homepage-footer",
+        "unique_section_slug": "homepage-footer-9",
+        "section_enable": "on",
+        "array_type": "multi-inner-list",
+        "loop_number": "5",
+        "inner-list": [
+            {
+                "field_name": "Quick Link",
+                "field_slug": "homepage-footer-sub-title",
+                "field_help_text": "Please add quick link text here",
+                "field_default_text": "About Us",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Quick Link Url",
+                "field_slug": "homepage-footer-link",
+                "field_help_text": "Please add link here",
+                "field_default_text": "#",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Footer",
+        "section_slug": "homepage-footer",
+        "unique_section_slug": "homepage-footer-10",
+        "section_enable": "on",
+        "array_type": "multi-inner-list",
+        "loop_number": "4",
+        "inner-list": [
+            {
+                "field_name": "Social - Icon",
+                "field_slug": "homepage-footer-social-icon",
+                "field_help_text": "Please upload  social icon image from here",
+                "field_default_text": "themes/kidscare/assets/img/youtube.svg",
+                "field_type": "photo upload"
+            },
+            {
+                "field_name": "Social Link",
+                "field_slug": "homepage-footer-link",
+                "field_help_text": "Please add  social link from here",
+                "field_default_text": "https://www.youtube.com/",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Collection",
+        "section_slug": "collection",
+        "unique_section_slug": "collection",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "",
+        "inner-list": [
+            {
+                "field_name": "Title",
+                "field_slug": "collection-title",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "Fashion category",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub text",
+                "field_slug": "collection-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "field_type": "text area"
+            }
+        ]
+    }
+]

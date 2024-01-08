@@ -1,0 +1,136 @@
+[
+    {
+        "section_name": "Home - Header",
+        "section_slug": "homepage-header",
+        "unique_section_slug": "homepage-header",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Background Image",
+                "field_slug": "homepage-header-bg-img",
+                "field_help_text": "Please upload image from here",
+                "field_default_text": "themes/grillaccessoriesmobileapp/assets/img/header.png",
+                "field_type": "photo upload"
+            },
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-header-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "Barbecue & Grillu2028acCesories",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Text",
+                "field_slug": "homepage-header-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+                "field_type": "text area"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Category",
+        "section_slug": "homepage-category",
+        "unique_section_slug": "homepage-category",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-category-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "Barbecue & Grill acessories",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Newsletter",
+        "section_slug": "homepage-newsletter",
+        "unique_section_slug": "homepage-newsletter",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Background Image",
+                "field_slug": "homepage-newsletter-bg-img",
+                "field_help_text": "Please upload image here",
+                "field_default_text": "themes/grillaccessoriesmobileapp/assets/img/news.png",
+                "field_type": "photo upload"
+            },
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-newsletter-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "Subscribe newsletter and get -20% off",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Text",
+                "field_slug": "homepage-newsletter-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "field_type": "text area"
+            },
+            {
+                "field_name": "Description",
+                "field_slug": "homepage-newsletter-description",
+                "field_help_text": "Please add description text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "field_type": "text area"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Products",
+        "section_slug": "homepage-products",
+        "unique_section_slug": "homepage-products",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Label",
+                "field_slug": "homepage-products-label",
+                "field_help_text": "Please add label text here",
+                "field_default_text": "BARBECUE",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-products-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "Barbecue & Grill acessories",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Text",
+                "field_slug": "homepage-products-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "field_type": "text area"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Testimonial",
+        "section_slug": "homepage-testimonial",
+        "unique_section_slug": "homepage-testimonial",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-testimonial-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "Testimonials",
+                "field_type": "text"
+            }
+        ]
+    }
+]

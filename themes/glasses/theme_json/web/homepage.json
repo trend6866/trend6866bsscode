@@ -1,0 +1,781 @@
+[
+    {
+        "section_name": "Home ",
+        "section_slug": "homepage-header",
+        "unique_section_slug": "homepage-header-1",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Icon image",
+                "field_slug": "homepage-header-icon-image",
+                "field_help_text": "Please upload image from here",
+                "field_default_text": "themes/glasses/assets/img/annoucebar_left.png",
+                "field_type": "photo upload"
+            },
+            {
+                "field_name": "Title",
+                "field_slug": "homepage-header-title",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "<b>7 days a week </b>from 9:00 am to 7:00 pm",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Label",
+                "field_slug": "homepage-header-label",
+                "field_help_text": "Please add label text here",
+                "field_default_text": "Call us : ",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Link",
+                "field_slug": "homepage-header-link",
+                "field_help_text": "Please add label link here",
+                "field_default_text": " 610-403-403",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Call Icon image",
+                "field_slug": "homepage-header-call-icon-image",
+                "field_help_text": "Please upload image from here",
+                "field_default_text": "themes/glasses/assets/img/annoucebar_right.png",
+                "field_type": "photo upload"
+            },
+            {
+                "field_name": "Banner Title",
+                "field_slug": "homepage-header-banner-title",
+                "field_help_text": "Please add banner title text here",
+                "field_default_text": "<b>Feateured </b>Collection",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Logo",
+        "section_slug": "homepage-logo",
+        "unique_section_slug": "homepage-logo",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Logo",
+                "field_slug": "homepage-logo",
+                "field_help_text": "Please upload image from here",
+                "field_default_text": "themes/glasses/assets/img/slider-logo.png",
+                "field_type": "multi file upload"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Best - Product",
+        "section_slug": "homepage-best-product",
+        "unique_section_slug": "homepage-best-product",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Heading",
+                "field_slug": "homepage-best-product-heading",
+                "field_help_text": "Please add heading text here",
+                "field_default_text": "<h2>Modern and timeless glasses from the best actress. </h2>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Text",
+                "field_slug": "homepage-best-product-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sstandard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>",
+                "field_type": "text area"
+            },
+            {
+                "field_name": "Button",
+                "field_slug": "homepage-best-product-button",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "Go to Shop",
+                "field_type": "button"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - About",
+        "section_slug": "homepage-about",
+        "unique_section_slug": "homepage-about",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Label",
+                "field_slug": "homepage-about-label",
+                "field_help_text": "Please add label text here",
+                "field_default_text": "eyeGlasses.",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Heading",
+                "field_slug": "homepage-about-heading",
+                "field_help_text": "Please add heading text here",
+                "field_default_text": "<h2>Modern and timeless glasses from the best actress. </h2>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub text",
+                "field_slug": "homepage-about-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>",
+                "field_type": "text area"
+            },
+            {
+                "field_name": "Button",
+                "field_slug": "homepage-about-button",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "Go to Shop",
+                "field_type": "button"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Rating - Box",
+        "section_slug": "homepage-rating-box",
+        "unique_section_slug": "homepage-rating-box",
+        "section_enable": "on",
+        "array_type": "multi-inner-list",
+        "loop_number": "3",
+        "inner-list": [
+            {
+                "field_name": "Count",
+                "field_slug": "homepage-rating-box-count",
+                "field_help_text": "Please find count here",
+                "field_default_text": "<h3>21</h3>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Heading",
+                "field_slug": "homepage-rating-box-heading",
+                "field_help_text": "Please add heading text here",
+                "field_default_text": "<h4>Positive <b>ratings</b> </h4>",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Modern - Category",
+        "section_slug": "homepage-modern-category",
+        "unique_section_slug": "homepage-modern-category",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Heading",
+                "field_slug": "homepage-modern-category-heading",
+                "field_help_text": "Please add heading text here",
+                "field_default_text": "<h2>Modern <b>categories</b></h2>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Button",
+                "field_slug": "homepage-modern-category-button",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "Go to Shop",
+                "field_type": "button"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Bestsellers",
+        "section_slug": "homepage-bestsellers",
+        "unique_section_slug": "homepage-bestsellers",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Heading",
+                "field_slug": "homepage-bestsellers-heading",
+                "field_help_text": "Please add heading text here",
+                "field_default_text": "<h2><b>Our</b>  bestsellers</h2>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Button",
+                "field_slug": "homepage-bestsellers-button",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "Go to Shop",
+                "field_type": "button"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Content",
+        "section_slug": "homepage-content",
+        "unique_section_slug": "homepage-content-1",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Heading",
+                "field_slug": "homepage-content-heading",
+                "field_help_text": "Please add heading text here",
+                "field_default_text": "Modern and timeless glasses from the best actress.",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Content",
+        "section_slug": "homepage-content",
+        "unique_section_slug": "homepage-content-2",
+        "section_enable": "on",
+        "array_type": "multi-inner-list",
+        "loop_number": "3",
+        "inner-list": [
+            {
+                "field_name": "Button",
+                "field_slug": "homepage-content-button",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "Go to Shop",
+                "field_type": "button"
+            },
+            {
+                "field_name": "Heading",
+                "field_slug": "homepage-content-heading",
+                "field_help_text": "Please add heading text here",
+                "field_default_text": "<h3>Modern and timeless glasses from the best actress.</h3>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Background Image",
+                "field_slug": "homepage-content-bg-image",
+                "field_help_text": "Please upload image from here",
+                "field_default_text": "themes/glasses/assets/img/img1.png",
+                "field_type": "photo upload"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Content",
+        "section_slug": "homepage-content",
+        "unique_section_slug": "homepage-content-3",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Heading",
+                "field_slug": "homepage-content-heading",
+                "field_help_text": "Please add heading text here",
+                "field_default_text": "<h3>Modern and timeless glasses from the best actress.</h3>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Button",
+                "field_slug": "homepage-content-button",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "Go to Shop",
+                "field_type": "button"
+            },
+            {
+                "field_name": "Sub text",
+                "field_slug": "homepage-content-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>",
+                "field_type": "text area"
+            },
+            {
+                "field_name": "Button",
+                "field_slug": "homepage-content-button2",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "Go to Shop",
+                "field_type": "button"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Our - Product",
+        "section_slug": "homepage-our-product",
+        "unique_section_slug": "homepage-our-product",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Heading",
+                "field_slug": "homepage-our-product-heading",
+                "field_help_text": "Please add heading text here",
+                "field_default_text": "<h2> Shop <b>Our product</b> </h2>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Button",
+                "field_slug": "homepage-our-product-btn",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "Show more products",
+                "field_type": "button"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Section - Layout",
+        "section_slug": "homepage-section-layout",
+        "unique_section_slug": "homepage-section-layout-1",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Background Image",
+                "field_slug": "homepage-section-layout-bg-image",
+                "field_help_text": "Please upload image from here",
+                "field_default_text": "themes/glasses/assets/img/twocol-left.png",
+                "field_type": "photo upload"
+            },
+            {
+                "field_name": "Heading",
+                "field_slug": "homepage-section-layout-heading",
+                "field_help_text": "Please add heading text here",
+                "field_default_text": "<h2><b>Modern</b> Category </h2>",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Section - Layout",
+        "section_slug": "homepage-section-layout",
+        "unique_section_slug": "homepage-section-layout-2",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Heading",
+                "field_slug": "homepage-section-layout-heading",
+                "field_help_text": "Please add heading text here",
+                "field_default_text": "<h2>Modern and timeless glasses from the best actress. </h2>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub text",
+                "field_slug": "homepage-section-layout-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>",
+                "field_type": "text area"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Variant - Section",
+        "section_slug": "homepage-variant-section",
+        "unique_section_slug": "homepage-variant-section-1",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Heading",
+                "field_slug": "homepage-variant-section-heading",
+                "field_help_text": "Please add heading text here",
+                "field_default_text": "<h2>Modern and timeless glasses from the best actress.</h2>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub text",
+                "field_slug": "homepage-variant-section-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>",
+                "field_type": "text area"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Variant - Section",
+        "section_slug": "homepage-variant-section",
+        "unique_section_slug": "homepage-variant-section-2",
+        "section_enable": "on",
+        "array_type": "multi-inner-list",
+        "loop_number": "3",
+        "inner-list": [
+            {
+                "field_name": "Icon Image",
+                "field_slug": "homepage-variant-section-icon-image",
+                "field_help_text": "Please upload image from here",
+                "field_default_text": "themes/glasses/assets/img/star.png",
+                "field_type": "photo upload"
+            },
+            {
+                "field_name": "Title",
+                "field_slug": "homepage-variant-section-title",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "<h5> <b>modern</b> and <b> timeless clothes</b>  </h5>",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Review - Section",
+        "section_slug": "homepage-review-section",
+        "unique_section_slug": "homepage-review-section",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Heading",
+                "field_slug": "homepage-review-section-heading",
+                "field_help_text": "Please add heading text here",
+                "field_default_text": "<span>About our fashion clothes store</span>",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Offer - Section ",
+        "section_slug": "homepage-offer-section",
+        "unique_section_slug": "homepage-offer-section",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+          {
+            "field_name": "Title",
+            "field_slug": "homepage-offer-section-title",
+            "field_help_text": "Please add title text here ",
+            "field_default_text": "<b>Check our -20%</b> off",
+            "field_type": "text"
+          }
+        ]
+    },
+    {
+        "section_name": "Home - About - Us",
+        "section_slug": "homepage-about-us",
+        "unique_section_slug": "homepage-about-us-1",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Heading",
+                "field_slug": "homepage-about-us-heading",
+                "field_help_text": "Please add heading text here",
+                "field_default_text": "<h2>About our Eyewear Glass store</h2>",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - About - Us",
+        "section_slug": "homepage-about-us",
+        "unique_section_slug": "homepage-about-us",
+        "section_enable": "on",
+        "array_type": "multi-inner-list",
+        "loop_number": "3",
+        "inner-list": [
+            {
+                "field_name": "Heading",
+                "field_slug": "homepage-about-us-heading",
+                "field_help_text": "Please add heading text here",
+                "field_default_text": "<h3>Fast <b>delivery</b></h3>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub text",
+                "field_slug": "homepage-about-us-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>",
+                "field_type": "text area"
+            },
+            {
+                "field_name": "Icon Image",
+                "field_slug": "homepage-about-us-icon-image",
+                "field_help_text": "Please upload image from here",
+                "field_default_text": "themes/glasses/assets/img/section.png",
+                "field_type": "photo upload"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Blog - Section",
+        "section_slug": "homepage-blog-section",
+        "unique_section_slug": "homepage-blog-section-1",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Heading",
+                "field_slug": "homepage-blog-section-heading",
+                "field_help_text": "Please add heading text here",
+                "field_default_text": "<h2>Modern and timeless glasses from the best actress.</h2>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Button",
+                "field_slug": "homepage-blog-section-button",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "Go to Shop",
+                "field_type": "button"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Footer",
+        "section_slug": "homepage-footer",
+        "unique_section_slug": "homepage-footer-1",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title",
+                "field_slug": "homepage-footer-title",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "<h3><b>Subscribe to</b> Newsletter</h3>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub text",
+                "field_slug": "homepage-footer-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>",
+                "field_type": "text area"
+            },
+            {
+                "field_name": "Text",
+                "field_slug": "homepage-footer-text",
+                "field_help_text": "Please add text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "field_type": "text area"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Footer",
+        "section_slug": "homepage-footer",
+        "unique_section_slug": "homepage-footer-2",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title",
+                "field_slug": "homepage-footer-title",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "<h4> Navigation: </h4>",
+                "field_type": "text"
+            },
+            {
+              "field_name": "Enable",
+              "field_slug": "homepage-footer-enable",
+              "field_help_text": "",
+              "field_default_text": "on",
+              "field_type": "checkbox"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Footer",
+        "section_slug": "homepage-footer",
+        "unique_section_slug": "homepage-footer-3",
+        "section_enable": "on",
+        "array_type": "multi-inner-list",
+        "loop_number": "5",
+        "inner-list": [
+            {
+                "field_name": "Sub title",
+                "field_slug": "homepage-footer-sub-title",
+                "field_help_text": "Please add sub title text here",
+                "field_default_text": "Order status",
+                "field_type": "text"
+            },
+            {
+              "field_name": "Footer Link",
+              "field_slug": "homepage-footer-footer-link",
+              "field_help_text": "Please add footer link here",
+              "field_default_text": "http://localhost/E-commerce/Ecommarce-dev2/page/contactus",
+              "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Footer",
+        "section_slug": "homepage-footer",
+        "unique_section_slug": "homepage-footer-4",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title",
+                "field_slug": "homepage-footer-title",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "<h4> About Us: </h4>",
+                "field_type": "text"
+            },
+            {
+              "field_name": "Enable",
+              "field_slug": "homepage-footer-enable",
+              "field_help_text": "",
+              "field_default_text": "on",
+              "field_type": "checkbox"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Footer",
+        "section_slug": "homepage-footer",
+        "unique_section_slug": "homepage-footer-5",
+        "section_enable": "on",
+        "array_type": "multi-inner-list",
+        "loop_number": "5",
+        "inner-list": [
+            {
+                "field_name": "Sub title",
+                "field_slug": "homepage-footer-sub-title",
+                "field_help_text": "Please add sub title text here",
+                "field_default_text": "Products",
+                "field_type": "text"
+            },
+            {
+              "field_name": "Footer Link",
+              "field_slug": "homepage-footer-footer-link",
+              "field_help_text": "Please add footer text here",
+              "field_default_text": "http://localhost/E-commerce/Ecommarce-dev2/page/about",
+              "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Footer",
+        "section_slug": "homepage-footer",
+        "unique_section_slug": "homepage-footer-6",
+        "section_enable": "on",
+        "array_type": "multi-inner-list",
+        "loop_number": "2",
+        "inner-list": [
+            {
+                "field_name": "Title",
+                "field_slug": "homepage-footer-title",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "<h4>call us:</h4>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Value",
+                "field_slug": "homepage-footer-value",
+                "field_help_text": "Please add  here",
+                "field_default_text": "+48 0021-32-12",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Footer",
+        "section_slug": "homepage-footer",
+        "unique_section_slug": "homepage-footer-7",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title",
+                "field_slug": "homepage-footer-title",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "<p>© 2022 Style. All rights reserved</p>",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Footer",
+        "section_slug": "homepage-footer",
+        "unique_section_slug": "homepage-footer-8",
+        "section_enable": "on",
+        "array_type": "multi-inner-list",
+        "loop_number": "2",
+        "inner-list": [
+            {
+                "field_name": "Title",
+                "field_slug": "homepage-footer-title",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "Policy Privacy",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Link",
+                "field_slug": "homepage-footer-link",
+                "field_help_text": "Please add title link here",
+                "field_default_text": "http://localhost/E-commerce/Ecommarce-dev2/page/about",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Footer",
+        "section_slug": "homepage-footer",
+        "unique_section_slug": "homepage-footer-9",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Cookie",
+                "field_slug": "homepage-footer-cookie",
+                "field_help_text": "Please add cookie text here",
+                "field_default_text": "<p>We use our own and third-party cookies to improve your experience and our services, and to analyse the use of our website. If you continue browsing, we take that to mean that you accept their use. See info.</p>",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Footer",
+        "section_slug": "homepage-footer",
+        "unique_section_slug": "homepage-footer-10",
+        "section_enable": "on",
+        "array_type": "multi-inner-list",
+        "loop_number": "4",
+        "inner-list": [
+          {
+            "field_name": "Social icon",
+            "field_slug": "homepage-footer-social-icon",
+            "field_help_text": "Please upload image from here",
+            "field_default_text": "themes/glasses/assets/img/youtube.png",
+            "field_type": "photo upload"
+          },
+          {
+            "field_name": "Link",
+            "field_slug": "homepage-footer-link",
+            "field_help_text": "Please add link here",
+            "field_default_text": "https://www.youtube.com/",
+            "field_type": "text"
+          }
+        ]
+    },
+    {
+        "section_name": "Collection",
+        "section_slug": "collection",
+        "unique_section_slug": "collection",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title",
+                "field_slug": "collection-title",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "Fashion category",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub text",
+                "field_slug": "collection-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "field_type": "text area"
+            }
+        ]
+    }
+]

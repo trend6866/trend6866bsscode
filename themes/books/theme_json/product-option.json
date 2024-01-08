@@ -1,0 +1,22 @@
+[
+    {
+        "section_name": "Product - Option",
+        "section_slug": "product-option",
+        "inner-list": [
+            {
+                "field_name": "Author Name",
+                "field_slug": "product-option-author-name",
+                "field_help_text": "Please add author name here",
+                "field_default_text": "Ruskin Bond",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Year",
+                "field_slug": "product-option-year",
+                "field_help_text": "Please add book year here",
+                "field_default_text": "2022",
+                "field_type": "text"
+            }
+        ]
+    }
+]

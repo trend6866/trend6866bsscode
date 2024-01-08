@@ -1,0 +1,29 @@
+[
+    {
+        "section_name": "Product Tag",
+        "section_slug": "product-tag",
+        "inner-list": [
+            {
+                "field_name": "new",
+                "field_slug": "product-tag-new",
+                "field_help_text": "new",
+                "field_default_text": "new",
+                "field_type": "text"
+            },
+            {
+                "field_name": "best seller",
+                "field_slug": "product-tag-best-seller",
+                "field_help_text": "best seller",
+                "field_default_text": "best seller",
+                "field_type": "text"
+            },
+            {
+                "field_name": "None",
+                "field_slug": "product-tag-none",
+                "field_help_text": "None",
+                "field_default_text": "None",
+                "field_type": "text"
+            }
+        ]
+    }
+]

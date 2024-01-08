@@ -1,0 +1,411 @@
+[
+    {
+      "section_name": "Home - Header",
+      "section_slug": "home-header",
+      "unique_section_slug": "home-header",
+      "section_enable": "on",
+      "array_type": "inner-list",
+      "loop_number": "1",
+      "inner-list": [
+        {
+          "field_name": "Title",
+          "field_slug": "home-header-title",
+          "field_help_text": "Please enter titile text here",
+          "field_default_text": "<p><b>Get 1 ebook for free </b>with 200.00 $ order.</p>",
+          "field_type": "text"
+        },
+        {
+          "field_name": "Link Text",
+          "field_slug": "home-header-link-text",
+          "field_help_text": "Please enter link  text here",
+          "field_default_text": "Get more",
+          "field_type": "text"
+        },
+        {
+          "field_name": "home-header",
+          "field_slug": "home-header-home-header",
+          "field_help_text": "Please add page link here ",
+          "field_default_text": "",
+          "field_type": "text"
+        }
+      ]
+    },
+    {
+      "section_name": "Main - Header",
+      "section_slug": "main-home-first-section",
+      "unique_section_slug": "main-home-first-section",
+      "section_enable": "on",
+      "array_type": "inner-list",
+      "loop_number": "1",
+      "inner-list": [
+        {
+          "field_name": "label",
+          "field_slug": "main-home-first-section-label",
+          "field_help_text": "Please enter label text here",
+          "field_default_text": "+5,000 books <br><b>in one place</b>",
+          "field_type": "text"
+        },
+        {
+          "field_name": "Image",
+          "field_slug": "main-home-first-section-image",
+          "field_help_text": "Please Upload image here",
+          "field_default_text": "themes/books/assets/img/Hero-main.jpg",
+          "field_type": "photo upload"
+        },
+        {
+          "field_name": "Button-1",
+          "field_slug": "main-home-first-section-button-1",
+          "field_help_text": "Please Enter button 1 text here",
+          "field_default_text": "Show audiobooks",
+          "field_type": "text"
+        },
+        {
+          "field_name": "Button-2",
+          "field_slug": "main-home-first-section-button-2",
+          "field_help_text": "Please Enter button 2 text here",
+          "field_default_text": "Find products",
+          "field_type": "text"
+        }
+      ]
+    },
+    {
+      "section_name": "Subscribe-Section",
+      "section_slug": "subscribe-section",
+      "unique_section_slug": "subscribe-section",
+      "section_enable": "on",
+      "array_type": "inner-list",
+      "loop_number": "1",
+      "inner-list": [
+        {
+          "field_name": "Title",
+          "field_slug": "subscribe-section-title",
+          "field_help_text": "Please enter subscribe title ",
+          "field_default_text": "<b>Subscribe newsletter and</b> <br>get -20% off",
+          "field_type": "text"
+        },
+        {
+          "field_name": "Sub Text",
+          "field_slug": "subscribe-section-sub-text",
+          "field_help_text": "Please enter subscribe sub text",
+          "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          "field_type": "text area"
+        },
+        {
+          "field_name": "Button",
+          "field_slug": "subscribe-section-button",
+          "field_help_text": "Please enter subscribe Button",
+          "field_default_text": "Show products",
+          "field_type": "text"
+        },
+        {
+          "field_name": "subscribe Text",
+          "field_slug": "subscribe-section-subscribe-text",
+          "field_help_text": "Please enter subscribe text ",
+          "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          "field_type": "text area"
+        },
+        {
+          "field_name": "Image1",
+          "field_slug": "subscribe-section-image1",
+          "field_help_text": "Please Upload Image here",
+          "field_default_text": "themes/books/assets/img/newslatter-img-1.png",
+          "field_type": "photo upload"
+        },
+        {
+          "field_name": "Image 2",
+          "field_slug": "subscribe-section-image2",
+          "field_help_text": "Please Upload Image here",
+          "field_default_text": "themes/books/assets/img/newslatter-img-2.png",
+          "field_type": "photo upload"
+        },
+        {
+          "field_name": "Image 3",
+          "field_slug": "subscribe-section-image3",
+          "field_help_text": "Please Upload Image here",
+          "field_default_text": "themes/books/assets/img/newslatter-img-3.png",
+          "field_type": "photo upload"
+        }
+      ]
+    },
+    {
+      "section_name": "Online Store Section",
+      "section_slug": "online-store-section",
+      "unique_section_slug": "online-store-section",
+      "section_enable": "on",
+      "array_type": "inner-list",
+      "loop_number": "1",
+      "inner-list": [
+        {
+          "field_name": "Title",
+          "field_slug": "online-store-section-title",
+          "field_help_text": "Please enter title",
+          "field_default_text": "<h2>Books <br><b>Online Store</b></h2>",
+          "field_type": "text"
+        }
+      ]
+    },
+    {
+      "section_name": "Category Section",
+      "section_slug": "category-section",
+      "unique_section_slug": "category-section",
+      "section_enable": "on",
+      "array_type": "inner-list",
+      "loop_number": "1",
+      "inner-list": [
+        {
+          "field_name": "Title",
+          "field_slug": "category-section-title",
+          "field_help_text": "Please add title text here",
+          "field_default_text": "<h2>Books <b>Online Store</b></h2>",
+          "field_type": "text"
+        },
+        {
+          "field_name": "Sub Text",
+          "field_slug": "category-section-sub-text",
+          "field_help_text": "Please add Sub text here ",
+          "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          "field_type": "text area"
+        },
+        {
+          "field_name": "Image",
+          "field_slug": "category-section-image",
+          "field_help_text": "Please Upload image here",
+          "field_default_text": "themes/books/assets/img/Category-image.png",
+          "field_type": "photo upload"
+        }
+      ]
+    },
+    {
+      "section_name": "Banner Contant Section",
+      "section_slug": "banner-contant-section",
+      "unique_section_slug": "banner-contant-section",
+      "section_enable": "on",
+      "array_type": "inner-list",
+      "loop_number": "1",
+      "inner-list": [
+        {
+          "field_name": "Title",
+          "field_slug": "banner-contant-section-title",
+          "field_help_text": "Please enter title text here",
+          "field_default_text": "<h2>Audiobooks <br><b>Online Store</b></h2>",
+          "field_type": "text"
+        },
+        {
+          "field_name": "Button",
+          "field_slug": "banner-contant-section-btn",
+          "field_help_text": "Please Enter Button Text Here",
+          "field_default_text": "Show audiobooks",
+          "field_type": "text"
+        }
+      ]
+    },
+    {
+      "section_name": "testimonials-section",
+      "section_slug": "testimonials-section",
+      "unique_section_slug": "testimonials-section",
+      "section_enable": "on",
+      "array_type": "inner-list",
+      "loop_number": "1",
+      "inner-list": [
+        {
+          "field_name": "Title",
+          "field_slug": "testimonials-section",
+          "field_help_text": "Please enter title text here",
+          "field_default_text": "<h2>Testimonials <br><b>Online Store</b></h2>",
+          "field_type": "text"
+        }
+      ]
+    },
+    {
+      "section_name": "Blog Section",
+      "section_slug": "blog-section",
+      "unique_section_slug": "blog-section",
+      "section_enable": "on",
+      "array_type": "inner-list",
+      "loop_number": "1",
+      "inner-list": [
+        {
+          "field_name": "Title",
+          "field_slug": "blog-section-title",
+          "field_help_text": "Please enter title text here",
+          "field_default_text": "<h2>Audiobooku2019s <br><b>Online Store</b></h2>",
+          "field_type": "text"
+        },
+        {
+          "field_name": "Button",
+          "field_slug": "blog-section-button",
+          "field_help_text": "Please add button text here ",
+          "field_default_text": "Show audiobooks",
+          "field_type": "text"
+        }
+      ]
+    },
+    {
+      "section_name": "Collection",
+      "section_slug": "collection",
+      "unique_section_slug": "collection",
+      "section_enable": "on",
+      "array_type": "inner-list",
+      "loop_number": "1",
+      "inner-list": [
+        {
+          "field_name": "Title",
+          "field_slug": "collection-title",
+          "field_help_text": "Please enter title text here",
+          "field_default_text": "Listing category",
+          "field_type": "text"
+        },
+        {
+          "field_name": "Sub Text",
+          "field_slug": "collection-sub-text",
+          "field_help_text": "Please enter sub text here",
+          "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          "field_type": "text"
+        }
+      ]
+    },
+    {
+      "section_name": "Home Footer Subscribe",
+      "section_slug": "home-footer-subscribe",
+      "unique_section_slug": "home-footer-subscribe-2",
+      "section_enable": "on",
+      "array_type": "inner-list",
+      "loop_number": "1",
+      "inner-list": [
+        {
+          "field_name": "Title",
+          "field_slug": "home-footer-subscribe-title",
+          "field_help_text": "Please add title text here ",
+          "field_default_text": "<h4> Shop: </h4>",
+          "field_type": "text"
+        },
+        {
+          "field_name": "Enable",
+          "field_slug": "home-footer-subscribe-enable",
+          "field_help_text": "",
+          "field_default_text": "on",
+          "field_type": "text"
+        }
+      ]
+    },
+    {
+      "section_name": "Home Footer Subscribe",
+      "section_slug": "home-footer-subscribe",
+      "unique_section_slug": "home-footer-subscribe-3",
+      "section_enable": "on",
+      "array_type": "multi-inner-list",
+      "loop_number": "5",
+      "inner-list": [
+        {
+          "field_name": "Label",
+          "field_slug": "home-footer-subscribe-label",
+          "field_help_text": "Please add label text here ",
+          "field_default_text": "Order status",
+          "field_type": "text"
+        },
+        {
+          "field_name": "Footer Link",
+          "field_slug": "home-footer-subscribe-footer-link",
+          "field_help_text": "Please add footer link here ",
+          "field_default_text": "",
+          "field_type": "text"
+        }
+      ]
+    },
+    {
+      "section_name": "Home Footer Subscribe",
+      "section_slug": "home-footer-subscribe",
+      "unique_section_slug": "home-footer-subscribe-4",
+      "section_enable": "on",
+      "array_type": "inner-list",
+      "loop_number": "1",
+      "inner-list": [
+        {
+          "field_name": "Title",
+          "field_slug": "home-footer-subscribe-title",
+          "field_help_text": "Please add title text here ",
+          "field_default_text": "<h4> Account: </h4>",
+          "field_type": "text"
+        },
+        {
+          "field_name": "Enable",
+          "field_slug": "home-footer-subscribe-enable",
+          "field_help_text": "",
+          "field_default_text": "on",
+          "field_type": "checkbox"
+        }
+      ]
+    },
+    {
+      "section_name": "Home Footer Subscribe",
+      "section_slug": "home-footer-subscribe",
+      "unique_section_slug": "home-footer-subscribe-5",
+      "section_enable": "on",
+      "array_type": "multi-inner-list",
+      "loop_number": "5",
+      "inner-list": [
+        {
+          "field_name": "Label",
+          "field_slug": "home-footer-subscribe-label",
+          "field_help_text": "Please add label text here ",
+          "field_default_text": "Products",
+          "field_type": "text"
+        },
+        {
+          "field_name": "Footer Link",
+          "field_slug": "home-footer-subscribe-footer-link",
+          "field_help_text": "Please add footer link here ",
+          "field_default_text": "",
+          "field_type": "text"
+        }
+      ]
+    },
+    {
+      "section_name": "Home Footer Subscribe",
+      "section_slug": "home-footer-subscribe",
+      "unique_section_slug": "home-footer-subscribe-6",
+      "section_enable": "on",
+      "array_type": "inner-list",
+      "loop_number": "1",
+      "inner-list": [
+        {
+          "field_name": "Title",
+          "field_slug": "home-footer-subscribe-title",
+          "field_help_text": "Please add label text here ",
+          "field_default_text": "<h4> Share: </h4>",
+          "field_type": "text"
+        },
+        {
+          "field_name": "Enable",
+          "field_slug": "home-footer-subscribe-enable",
+          "field_help_text": "",
+          "field_default_text": "on",
+          "field_type": "checkbox"
+        }
+      ]
+    },
+    {
+      "section_name": "Home Footer Subscribe",
+      "section_slug": "home-footer-subscribe",
+      "unique_section_slug": "home-footer-subscribe-7",
+      "section_enable": "on",
+      "array_type": "multi-inner-list",
+      "loop_number": "4",
+      "inner-list": [
+        {
+          "field_name": "Social icon",
+          "field_slug": "home-footer-subscribe-social-icon",
+          "field_help_text": "Please upload image from here",
+          "field_default_text": "themes/books/assets/img/youtube.svg",
+          "field_type": "photo upload"
+        },
+        {
+          "field_name": "Link",
+          "field_slug": "home-footer-subscribe-link",
+          "field_help_text": "Please add link here",
+          "field_default_text": "https://www.youtube.com/",
+          "field_type": "text"
+        }
+      ]
+    }
+  ]

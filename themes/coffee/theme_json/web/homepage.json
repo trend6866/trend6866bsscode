@@ -1,0 +1,589 @@
+[{
+    "section_name": "Home - Header",
+    "section_slug": "homepage-header",
+    "unique_section_slug": "homepage-header",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": "1",
+    "inner-list": [{
+        "field_name": "Heading Text",
+        "field_slug": "homepage-header-heading-text",
+        "field_help_text": "Please add heading text here",
+        "field_default_text": "CoffeeStore ",
+        "field_type": "text"
+    }, {
+        "field_name": "Vedio Url",
+        "field_slug": "homepage-header-vedio-url",
+        "field_help_text": "Please add vedio url link here",
+        "field_default_text": "themes/coffee/assets/img/video1.mp4",
+        "field_type": "text"
+    }]
+}, {
+    "section_name": "Home - Banner",
+    "section_slug": "homepage-banner",
+    "unique_section_slug": "homepage-banner",
+    "section_enable": "on",
+    "array_type": "multi-inner-list",
+    "loop_number": "3",
+    "inner-list": [{
+        "field_name": "Label Text",
+        "field_slug": "homepage-banner-label-text",
+        "field_help_text": "Please add label text here",
+        "field_default_text": "CoffeeStore",
+        "field_type": "text"
+    }, {
+        "field_name": "Title Text",
+        "field_slug": "homepage-banner-title-text",
+        "field_help_text": "Please add title text here",
+        "field_default_text": "Freshly roasted coffee <b>and barista accessories.</b>",
+        "field_type": "text"
+    }, {
+        "field_name": "Sub Text",
+        "field_slug": "homepage-banner-sub-text",
+        "field_help_text": "Please add sub text here",
+        "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "field_type": "text area"
+    }, {
+        "field_name": "Button Text",
+        "field_slug": "homepage-banner-btn-text",
+        "field_help_text": "Please add button text here",
+        "field_default_text": "Show products",
+        "field_type": "button"
+    }]
+}, {
+    "section_name": "Home - Logo",
+    "section_slug": "homepage-logo",
+    "unique_section_slug": "homepage-logo",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": "1",
+    "inner-list": [{
+        "field_name": "Heading Text",
+        "field_slug": "homepage-logo-heading-text",
+        "field_help_text": "Please add heading text here",
+        "field_default_text": "CoffeeStore",
+        "field_type": "text"
+    }, {
+        "field_name": "Title Text",
+        "field_slug": "homepage-logo-title-text",
+        "field_help_text": "Please add title text here",
+        "field_default_text": "Fresh roasted coffe <br> <b>with 24h delivery</b>",
+        "field_type": "text"
+    }, {
+        "field_name": "Header Text ",
+        "field_slug": "homepage-logo-label-text",
+        "field_help_text": "Please add your text here",
+        "field_default_text": "PARTNERS",
+        "field_type": "text"
+    }, {
+        "field_name": "Logo",
+        "field_slug": "homepage-logo-logo",
+        "field_help_text": "Please upload image from here",
+        "field_default_text": "themes/coffee/assets/img/logo.png",
+        "field_type": "multi file upload"
+    }]
+}, {
+    "section_name": "Home - Products",
+    "section_slug": "homepage-products",
+    "unique_section_slug": "homepage-products",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": "1",
+    "inner-list": [{
+        "field_name": "Image",
+        "field_slug": "homepage-products-img",
+        "field_help_text": "Please upload image from here",
+        "field_default_text": "themes/coffee/assets/img/leftcoffee.png",
+        "field_type": "photo upload"
+    }, {
+        "field_name": "Button Text",
+        "field_slug": "homepage-products-btn-text",
+        "field_help_text": "Please add button text here",
+        "field_default_text": "Show more products",
+        "field_type": "button"
+    }]
+}, {
+    "section_name": "Home - Banner - Product",
+    "section_slug": "homepage-banner-product",
+    "unique_section_slug": "homepage-banner-product",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": "1",
+    "inner-list": [{
+        "field_name": "Label Text",
+        "field_slug": "homepage-banner-product-label-text",
+        "field_help_text": "Please add label text here ",
+        "field_default_text": "CoffeeStore",
+        "field_type": "text"
+    }, {
+        "field_name": "Title Text",
+        "field_slug": "homepage-banner-product-title-text",
+        "field_help_text": "Please add title text here",
+        "field_default_text": "Fresh roasted coffe <br> <b>with 24h delivery</b>",
+        "field_type": "text"
+    }, {
+        "field_name": "Sub Text",
+        "field_slug": "homepage-banner-product-sub-text",
+        "field_help_text": "Please add sub text here",
+        "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "field_type": "text area"
+    }, {
+        "field_name": "Button Text",
+        "field_slug": "homepage-banner-product-btn-text",
+        "field_help_text": "Please add button text here",
+        "field_default_text": "Show products",
+        "field_type": "button"
+    }, {
+        "field_name": "Vedio Url",
+        "field_slug": "homepage-banner-product-video-url",
+        "field_help_text": "Please add vedio url link here",
+        "field_default_text": "themes/coffee/assets/img/video3.mp4",
+        "field_type": "text"
+    }]
+}, {
+    "section_name": "Home - Card",
+    "section_slug": "homepage-card",
+    "unique_section_slug": "homepage-card-1",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": "1",
+    "inner-list": [{
+        "field_name": "Label Text",
+        "field_slug": "homepage-card-label-text",
+        "field_help_text": "Please add label text here",
+        "field_default_text": "CoffeeStore",
+        "field_type": "text"
+    }, {
+        "field_name": "Title Text",
+        "field_slug": "homepage-cardhomepage-card-title-text",
+        "field_help_text": "Please add title text here",
+        "field_default_text": "Fresh roasted coffe <br> <b>with 24h delivery</b>",
+        "field_type": "text"
+    }, {
+        "field_name": "Sub Text",
+        "field_slug": "homepage-card-sub-text",
+        "field_help_text": "Please add sub text here",
+        "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "field_type": "text area"
+    }, {
+        "field_name": "Button Text",
+        "field_slug": "homepage-card-btn-text",
+        "field_help_text": "Please add button text here",
+        "field_default_text": "Show products",
+        "field_type": "button"
+    }, {
+        "field_name": "Image",
+        "field_slug": "homepage-card-img",
+        "field_help_text": "Please upload image from here",
+        "field_default_text": "themes/coffee/assets/img/leftcoffee.png",
+        "field_type": "photo upload"
+    }, {
+        "field_name": "Heading Text",
+        "field_slug": "homepage-card-heading-text",
+        "field_help_text": "Please add heading text here",
+        "field_default_text": "Choose the origin of the coffee: ",
+        "field_type": "text"
+    }]
+}, {
+    "section_name": "Home - Card",
+    "section_slug": "homepage-card",
+    "unique_section_slug": "homepage-card-2",
+    "section_enable": "on",
+    "array_type": "multi-inner-list",
+    "loop_number": "5",
+    "inner-list": [{
+        "field_name": "Label Text",
+        "field_slug": "homepage-card-label-text",
+        "field_help_text": "Please add label text here ",
+        "field_default_text": "Spain ",
+        "field_type": "text"
+    }]
+}, {
+    "section_name": "Home - Feature - Product",
+    "section_slug": "homepage-feature-product",
+    "unique_section_slug": "homepage-feature-product",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": "1",
+    "inner-list": [{
+        "field_name": "Label Text",
+        "field_slug": "homepage-feature-product-label-text",
+        "field_help_text": "Please add label text here",
+        "field_default_text": "CoffeeStore",
+        "field_type": "text"
+    }, {
+        "field_name": "Title Text",
+        "field_slug": "homepage-feature-product-title-text",
+        "field_help_text": "Please add title text here",
+        "field_default_text": "Fresh roasted coffe <br> <b>with 24h delivery</b>",
+        "field_type": "text"
+    }, {
+        "field_name": "Button Text",
+        "field_slug": "homepage-feature-product-btn-text",
+        "field_help_text": "Please add button text here",
+        "field_default_text": "Show more products",
+        "field_type": "button"
+    }]
+}, {
+    "section_name": "Home - Section",
+    "section_slug": "homepage-section",
+    "unique_section_slug": "homepage-section",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": "1",
+    "inner-list": [{
+        "field_name": "Label Text",
+        "field_slug": "homepage-section-label-text",
+        "field_help_text": "Please add label text here",
+        "field_default_text": "CoffeeStore",
+        "field_type": "text"
+    }, {
+        "field_name": "Title Text",
+        "field_slug": "homepage-section-title-text",
+        "field_help_text": "Please add title text here",
+        "field_default_text": "Fresh roasted coffe <br> <b>with 24h delivery</b>",
+        "field_type": "text"
+    }, {
+        "field_name": "Sub Text",
+        "field_slug": "homepage-section-sub-text",
+        "field_help_text": "Please add sub text here",
+        "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        "field_type": "text area"
+    }, {
+        "field_name": "Button Text",
+        "field_slug": "homepage-section-btn-text",
+        "field_help_text": "Please add button text here",
+        "field_default_text": "Show Blogs",
+        "field_type": "button"
+    }, {
+        "field_name": "Background Image ",
+        "field_slug": "homepage-section-bg-img",
+        "field_help_text": "Please upload image from here",
+        "field_default_text": "themes/coffee/assets/img/flying-coffee.png",
+        "field_type": "photo upload"
+    }, {
+        "field_name": "Image",
+        "field_slug": "homepage-section-img",
+        "field_help_text": "Please upload image from here",
+        "field_default_text": "themes/coffee/assets/img/Cup-of-CoffeeH03.png",
+        "field_type": "photo upload"
+    }]
+}, {
+    "section_name": "Home - Newletter",
+    "section_slug": "homepage-newsletter",
+    "unique_section_slug": "homepage-newsletter",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": "1",
+    "inner-list": [{
+        "field_name": "Label Text",
+        "field_slug": "homepage-newsletter-label-text",
+        "field_help_text": "Please add label text here",
+        "field_default_text": "CoffeeStore",
+        "field_type": "text"
+    }, {
+        "field_name": "Title Text",
+        "field_slug": "homepage-newsletter-title-text",
+        "field_help_text": "Please add title  text here",
+        "field_default_text": "<b>Subscribe newsletter</b> and  get -20% off",
+        "field_type": "text"
+    }, {
+        "field_name": "Sub Text",
+        "field_slug": "homepage-newsletter-sub-text",
+        "field_help_text": "Please add sub text here",
+        "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "field_type": "text area"
+    }, {
+        "field_name": "Description ",
+        "field_slug": "homepage-newsletter-description",
+        "field_help_text": "Please add description text here",
+        "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "field_type": "text area"
+    }, {
+        "field_name": "Background Image",
+        "field_slug": "homepage-newsletter-bg-img",
+        "field_help_text": "Please upload image from here",
+        "field_default_text": "themes/coffee/assets/img/Rectangle1718.png",
+        "field_type": "photo upload"
+    }]
+}, {
+    "section_name": "Home - Blog",
+    "section_slug": "homepage-blog",
+    "unique_section_slug": "homepage-blog",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": "1",
+    "inner-list": [{
+        "field_name": "Label Text",
+        "field_slug": "homepage-blog-label-text",
+        "field_help_text": "Please add label text here",
+        "field_default_text": "CoffeeStore",
+        "field_type": "text"
+    }, {
+        "field_name": "Title Text",
+        "field_slug": "homepage-blog-title-text",
+        "field_help_text": "Please add title text here",
+        "field_default_text": "Fresh roasted coffe <br> <b>with 24h delivery</b>",
+        "field_type": "text"
+    }, {
+        "field_name": "Sub Text",
+        "field_slug": "homepage-blog-sub-text",
+        "field_help_text": "Please add sub text here",
+        "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "field_type": "text area"
+    }, {
+        "field_name": "Button Text",
+        "field_slug": "homepage-blog-btn-text",
+        "field_help_text": "Please add button text here",
+        "field_default_text": "Show Blogs",
+        "field_type": "button"
+    }, {
+        "field_name": "Image",
+        "field_slug": "homepage-blog-img",
+        "field_help_text": "Please upload image from here",
+        "field_default_text": "themes/coffee/assets/img/leftcoffee.png",
+        "field_type": "photo upload"
+    }]
+}, {
+    "section_name": "Home - Image - Section",
+    "section_slug": "homepage-image-section",
+    "unique_section_slug": "homepage-image-section-1",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": "1",
+    "inner-list": [{
+        "field_name": "Label Text",
+        "field_slug": "homepage-image-section-label-text",
+        "field_help_text": "Please add label text here",
+        "field_default_text": "CoffeeStore",
+        "field_type": "text"
+    }, {
+        "field_name": "Title Text",
+        "field_slug": "homepage-image-section-title-text",
+        "field_help_text": "Please add title text here",
+        "field_default_text": "From our instagram",
+        "field_type": "text"
+    }, {
+        "field_name": "Tag ",
+        "field_slug": "homepage-image-section-tag",
+        "field_help_text": "Please add tag text here",
+        "field_default_text": "INSTAGRAM",
+        "field_type": "text"
+    }, {
+        "field_name": "Tag Text",
+        "field_slug": "homepage-image-section-tag-text",
+        "field_help_text": "Please add tag text here",
+        "field_default_text": "@CoffeeStore",
+        "field_type": "text"
+    }, {
+        "field_name": "Image",
+        "field_slug": "homepage-image-section-img",
+        "field_help_text": "Please upload image from here",
+        "field_default_text": "themes/coffee/assets/img/insta-pro.png",
+        "field_type": "photo upload"
+    }]
+}, {
+    "section_name": "Home - Image - Section",
+    "section_slug": "homepage-image-section",
+    "unique_section_slug": "homepage-image-section-2",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": "1",
+    "inner-list": [{
+        "field_name": "Image",
+        "field_slug": "homepage-image-section-img",
+        "field_help_text": "Please upload image from here",
+        "field_default_text": "themes/coffee/assets/img/insta-im3.png",
+        "field_type": "multi file upload"
+    }]
+}, {
+    "section_name": "Home - Footer ",
+    "section_slug": "homepage-footer",
+    "unique_section_slug": "homepage-footer-1",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": "1",
+    "inner-list": [{
+        "field_name": "Title Text",
+        "field_slug": "homepage-footer-title-text",
+        "field_help_text": "Please add title text here",
+        "field_default_text": " Shop: ",
+        "field_type": "text"
+    }, {
+        "field_name": "Enable",
+        "field_slug": "homepage-footer-enable",
+        "field_help_text": "",
+        "field_default_text": "on",
+        "field_type": "checkbox"
+    }]
+}, {
+    "section_name": "Home - Footer ",
+    "section_slug": "homepage-footer",
+    "unique_section_slug": "homepage-footer-2",
+    "section_enable": "on",
+    "array_type": "multi-inner-list",
+    "loop_number": "5",
+    "inner-list": [{
+        "field_name": "Label Text",
+        "field_slug": "homepage-footer-label-text",
+        "field_help_text": "Please add label text here",
+        "field_default_text": "Order status",
+        "field_type": "text"
+    }, {
+        "field_name": "Label Link",
+        "field_slug": "homepage-footer-label-link",
+        "field_help_text": "Please add label link here",
+        "field_default_text": "",
+        "field_type": "text"
+    }]
+}, {
+    "section_name": "Home - Footer ",
+    "section_slug": "homepage-footer",
+    "unique_section_slug": "homepage-footer-3",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": "1",
+    "inner-list": [{
+        "field_name": "Title Text",
+        "field_slug": "homepage-footer-title-text",
+        "field_help_text": "Please add title text here",
+        "field_default_text": " Account: ",
+        "field_type": "text"
+    }, {
+        "field_name": "Enable",
+        "field_slug": "homepage-footer-enable",
+        "field_help_text": "",
+        "field_default_text": "on",
+        "field_type": "checkbox"
+    }]
+}, {
+    "section_name": "Home - Footer ",
+    "section_slug": "homepage-footer",
+    "unique_section_slug": "homepage-footer-4",
+    "section_enable": "on",
+    "array_type": "multi-inner-list",
+    "loop_number": "4",
+    "inner-list": [{
+        "field_name": "Label Text",
+        "field_slug": "homepage-footer-label-text",
+        "field_help_text": "Please add label text here",
+        "field_default_text": "Products",
+        "field_type": "text"
+    }, {
+        "field_name": "Label Link",
+        "field_slug": "homepage-footer-label-link",
+        "field_help_text": "Please add label link here",
+        "field_default_text": "",
+        "field_type": "text"
+    }]
+}, {
+    "section_name": "Home - Footer ",
+    "section_slug": "homepage-footer",
+    "unique_section_slug": "homepage-footer-5",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": "1",
+    "inner-list": [{
+        "field_name": "Label",
+        "field_slug": "homepage-footer-label",
+        "field_help_text": "Please add label text here",
+        "field_default_text": " Share: ",
+        "field_type": "text"
+    }, {
+        "field_name": "Enable",
+        "field_slug": "homepage-footer-enable",
+        "field_help_text": "",
+        "field_default_text": "on",
+        "field_type": "checkbox"
+    }]
+}, {
+    "section_name": "Home - Footer ",
+    "section_slug": "homepage-footer",
+    "unique_section_slug": "homepage-footer-6",
+    "section_enable": "on",
+    "array_type": "multi-inner-list",
+    "loop_number": "4",
+    "inner-list": [{
+        "field_name": "Social Icon",
+        "field_slug": "homepage-footer-social-icon",
+        "field_help_text": "Please upload image from here",
+        "field_default_text": "themes/coffee/assets/img/youtube.png",
+        "field_type": "photo upload"
+    }, {
+        "field_name": "Social Icon LInk",
+        "field_slug": "homepage-footer-social-icon-link",
+        "field_help_text": "Please add social icon link here",
+        "field_default_text": "https://www.youtube.com/",
+        "field_type": "text"
+    }]
+}, {
+    "section_name": "Home - Footer ",
+    "section_slug": "homepage-footer",
+    "unique_section_slug": "homepage-footer-7",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": "1",
+    "inner-list": [{
+        "field_name": "Image 1",
+        "field_slug": "homepage-products-img-footer-1",
+        "field_help_text": "Please upload image from here",
+        "field_default_text": "themes/coffee/assets/img/leftcoffee.png",
+        "field_type": "photo upload"
+    }, {
+        "field_name": "Image 2",
+        "field_slug": "homepage-products-img-footer-2",
+        "field_help_text": "Please upload image from here",
+        "field_default_text": "themes/coffee/assets/img/footer-right.png",
+        "field_type": "photo upload"
+    }]
+}, {
+    "section_name": "Home - Articles ",
+    "section_slug": "home-banner-content",
+    "unique_section_slug": "home-banner-content",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": "1",
+    "inner-list": [{
+        "field_name": "Title ",
+        "field_slug": "home-banner-content-title",
+        "field_help_text": "Please add heading text here",
+        "field_default_text": "<h2>Top sneakers trends <b>for 2022 year</b></h2>",
+        "field_type": "text"
+    }, {
+        "field_name": "Decription",
+        "field_slug": "home-banner-content-sub-text",
+        "field_help_text": "Please add your description here",
+        "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy.",
+        "field_type": "text"
+    }, {
+        "field_name": "Button Text",
+        "field_slug": "home-banner-content-button",
+        "field_help_text": "",
+        "field_default_text": "READ MORE",
+        "field_type": "button"
+    }]
+},
+{
+    "section_name": "Collection",
+    "section_slug": "collection",
+    "unique_section_slug": "collection",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": "1",
+    "inner-list": [
+        {
+            "field_name": "Title",
+            "field_slug": "collection-title",
+            "field_help_text": "Please add title text here",
+            "field_default_text": "Listing category",
+            "field_type": "text"
+        },
+        {
+            "field_name": "Sub text",
+            "field_slug": "collection-sub-text",
+            "field_help_text": "Please add sub text here",
+            "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "field_type": "text area"
+        }
+    ]
+}]

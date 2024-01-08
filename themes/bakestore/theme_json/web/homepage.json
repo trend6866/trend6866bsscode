@@ -1,0 +1,635 @@
+[
+    {
+        "section_name": "Home - Header",
+        "section_slug": "homepage-header",
+        "unique_section_slug": "homepage-header-1",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Header Text",
+                "field_slug": "homepage-header-header-text",
+                "field_help_text": "Please add header text here",
+                "field_default_text": "<span> Monday - Friday</span> 8:00 AM - 9:00 PM",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Call Label",
+                "field_slug": "homepage-header-call-label",
+                "field_help_text": "Please add label text here",
+                "field_default_text": "Call and make an appointment",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Contact",
+                "field_slug": "homepage-header-contact",
+                "field_help_text": "Please add contact number here",
+                "field_default_text": "+00 544-213-615",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Banner",
+        "section_slug": "homepage-banner",
+        "unique_section_slug": "homepage-banner-1",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Label ",
+                "field_slug": "homepage-banner-label",
+                "field_help_text": "Please add label text here",
+                "field_default_text": "Bakery",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-banner-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "Bread baked  <b>with love every day. </b>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Text",
+                "field_slug": "homepage-banner-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "field_type": "text area"
+            },
+            {
+                "field_name": "Button Text",
+                "field_slug": "homepage-banner-btn-text",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "Check more products",
+                "field_type": "button"
+            },
+            {
+                "field_name": "Vedio Url",
+                "field_slug": "homepage-banner-vedio-url",
+                "field_help_text": "Please add vedio url here",
+                "field_default_text": "https://www.youtube.com/embed/9xwazD5SyVg",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Vedio Label",
+                "field_slug": "homepage-banner-vedio-label",
+                "field_help_text": "Please add vedio label text here",
+                "field_default_text": "Play Vedio",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Description",
+                "field_slug": "homepage-banner-description",
+                "field_help_text": "Please add description text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "field_type": "text area"
+            },
+            {
+                "field_name": "Button Text 2",
+                "field_slug": "homepage-banner-btn-text-2",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "Show more",
+                "field_type": "button"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Banner",
+        "section_slug": "homepage-banner",
+        "unique_section_slug": "homepage-banner-2",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Home Images",
+                "field_slug": "homepage-banner-home-img",
+                "field_help_text": "Please upload image from here",
+                "field_default_text": "themes/bakestore/assets/img/home-bg.png",
+                "field_type": "photo upload"
+            },
+            {
+                "field_name": "Home Images Right",
+                "field_slug": "homepage-banner-right-img",
+                "field_help_text": "Please upload image from here",
+                "field_default_text": "themes/bakestore/assets/img/cs.png",
+                "field_type": "photo upload"
+            },
+            {
+                "field_name": "Home Images Left",
+                "field_slug": "homepage-banner-left-img",
+                "field_help_text": "Please upload image from here",
+                "field_default_text": "themes/bakestore/assets/img/chocolate2.png",
+                "field_type": "photo upload"
+            },
+            {
+                "field_name": "Home Images Left",
+                "field_slug": "homepage-banner-img",
+                "field_help_text": "Please upload image from here",
+                "field_default_text": "themes/bakestore/assets/img/bakery-1.png",
+                "field_type": "photo upload"
+            }
+        ]
+    },
+
+
+    {
+        "section_name": "Home - Promotions",
+        "section_slug": "homepage-promotions",
+        "unique_section_slug": "homepage-promotions",
+        "section_enable": "on",
+        "array_type": "multi-inner-list",
+        "loop_number": "3",
+        "inner-list": [
+            {
+                "field_name": "Icon",
+                "field_slug": "homepage-promotions-icon",
+                "field_help_text": "Please upload image from here",
+                "field_default_text": "themes/bakestore/assets/img/promotion.png",
+                "field_type": "photo upload"
+            },
+            {
+                "field_name": "Label",
+                "field_slug": "homepage-promotions-label",
+                "field_help_text": "Please add label text here",
+                "field_default_text": "<b>Finished products</b><span>products and gift wrapping</span>",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Banner - Section",
+        "section_slug": "homepage-banner-section",
+        "unique_section_slug": "homepage-banner-section",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Label",
+                "field_slug": "homepage-banner-section-label",
+                "field_help_text": "Please add label text here",
+                "field_default_text": "Bakery",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-banner-section-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "Bread baked  <b>with love every day. </b>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Text",
+                "field_slug": "homepage-banner-section-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "field_type": "text area"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Bestsellers",
+        "section_slug": "homepage-products",
+        "unique_section_slug": "homepage-products",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-products-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "Bread baked<br><b>with love every day.</b>",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Vedio - Section",
+        "section_slug": "homepage-vedio-section",
+        "unique_section_slug": "homepage-vedio-section",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Label",
+                "field_slug": "homepage-vedio-section-label",
+                "field_help_text": "Please add label text here",
+                "field_default_text": "Bakery",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-vedio-section-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "Immerse yourself <b>in the chocolate flavor </b>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Text",
+                "field_slug": "homepage-vedio-section-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "field_type": "text area"
+            },
+
+            {
+                "field_name": "Vedio Text",
+                "field_slug": "homepage-vedio-section-vedio-text",
+                "field_help_text": "Please add vedio text here",
+                "field_default_text": "play video",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Category",
+        "section_slug": "homepage-category",
+        "unique_section_slug": "homepage-category",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-category-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "Bread baked with <b>love every day. </b>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Text",
+                "field_slug": "homepage-category-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "field_type": "text area"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Card",
+        "section_slug": "homepage-card",
+        "unique_section_slug": "homepage-card",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Background Image",
+                "field_slug": "homepage-card-bg-img",
+                "field_help_text": "Please upload image from here",
+                "field_default_text": "themes/bakestore/assets/img/card-img-1.png",
+                "field_type": "photo upload"
+            },
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-card-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "Breads",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Text",
+                "field_slug": "homepage-card-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
+                "field_type": "text area"
+            },
+            {
+                "field_name": "Button Text",
+                "field_slug": "homepage-card-btn-text",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "Check more products",
+                "field_type": "button"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Slider",
+        "section_slug": "homepage-slider",
+        "unique_section_slug": "homepage-slider",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-slider-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "Bread baked with<br> <b>love every day.</b>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Text",
+                "field_slug": "homepage-slider-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
+                "field_type": "text area"
+            },
+            {
+                "field_name": "Button Text",
+                "field_slug": "homepage-slider-btn-text",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "Check more products",
+                "field_type": "button"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Info",
+        "section_slug": "homepage-info",
+        "unique_section_slug": "homepage-info",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-info-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "Bread baked with<br> <b>love every day.</b>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Text",
+                "field_slug": "homepage-info-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
+                "field_type": "text area"
+            },
+            {
+                "field_name": "Button Text",
+                "field_slug": "homepage-info-btn-text",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "Check more products",
+                "field_type": "Check more products"
+            },
+            {
+                "field_name": "Image",
+                "field_slug": "homepage-info-img",
+                "field_help_text": "Please upload image from here",
+                "field_default_text": "themes/bakestore/assets/img/chocolate4.png",
+                "field_type": "photo upload"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Newsletter ",
+        "section_slug": "homepage-newsletter",
+        "unique_section_slug": "homepage-newsletter",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-newsletter-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "<b>Subscribe newsletter and </b> get -20% off",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Text",
+                "field_slug": "homepage-newsletter-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "field_type": "text area"
+            },
+            {
+                "field_name": "Description",
+                "field_slug": "homepage-newsletter-description",
+                "field_help_text": "Please add description text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "field_type": "text area"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Blog",
+        "section_slug": "homepage-blog",
+        "unique_section_slug": "homepage-blog",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-blog-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "Bread baked with<br> <b>love every day.</b>",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Text",
+                "field_slug": "homepage-blog-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
+                "field_type": "text area"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Testimonial",
+        "section_slug": "homepage-testimonial",
+        "unique_section_slug": "homepage-testimonial",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-testimonial-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "Testimonials",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Text",
+                "field_slug": "homepage-testimonial-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "field_type": "text area"
+            },
+            {
+                "field_name": "Button Text",
+                "field_slug": "homepage-testimonial-btn-text",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "Read More",
+                "field_type": "button"
+            }
+        ]
+    },
+    {
+        "section_name": "Product - Listpage",
+        "section_slug": "product-listpage",
+        "unique_section_slug": "product-listpage",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title Text",
+                "field_slug": "product-listpage-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "Listing category ",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Text",
+                "field_slug": "product-listpage-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "field_type": "text area"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Footer",
+        "section_slug": "homepage-footer",
+        "unique_section_slug": "homepage-footer-1",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Sub Text",
+                "field_slug": "homepage-footer-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "field_type": "text area"
+            },
+            {
+                "field_name": "Text",
+                "field_slug": "homepage-footer-text",
+                "field_help_text": "Please add  text here ",
+                "field_default_text": "© 2022 Fashion. All rights reserved",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Footer",
+        "section_slug": "homepage-footer",
+        "unique_section_slug": "homepage-footer-2",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-footer-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": " Navigation: ",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Enable",
+                "field_slug": "homepage-footer-enable",
+                "field_help_text": "",
+                "field_default_text": "on",
+                "field_type": "checkbox"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Footer",
+        "section_slug": "homepage-footer",
+        "unique_section_slug": "homepage-footer-3",
+        "section_enable": "on",
+        "array_type": "multi-inner-list",
+        "loop_number": "5",
+        "inner-list": [
+            {
+                "field_name": "Label",
+                "field_slug": "homepage-footer-label",
+                "field_help_text": "Please add label text here",
+                "field_default_text": "Order status",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Label Link",
+                "field_slug": "homepage-footer-label-link",
+                "field_help_text": "Please add label link here",
+                "field_default_text": "",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Footer",
+        "section_slug": "homepage-footer",
+        "unique_section_slug": "homepage-footer-4",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-footer-title-text",
+                "field_help_text": "Please add title text here ",
+                "field_default_text": " About Us: ",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Enable",
+                "field_slug": "homepage-footer-enable",
+                "field_help_text": "",
+                "field_default_text": "on",
+                "field_type": "checkbox"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Footer",
+        "section_slug": "homepage-footer",
+        "unique_section_slug": "homepage-footer-5",
+        "section_enable": "on",
+        "array_type": "multi-inner-list",
+        "loop_number": "6",
+        "inner-list": [
+            {
+                "field_name": "Label ",
+                "field_slug": "homepage-footer-label",
+                "field_help_text": "Please add label text here",
+                "field_default_text": "Products",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Label Link",
+                "field_slug": "homepage-footer-label-link",
+                "field_help_text": "Please add label link here",
+                "field_default_text": "",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Footer",
+        "section_slug": "homepage-footer",
+        "unique_section_slug": "homepage-footer-6",
+        "section_enable": "on",
+        "array_type": "multi-inner-list",
+        "loop_number": "4",
+        "inner-list": [
+            {
+                "field_name": "Social Icon",
+                "field_slug": "homepage-footer-social-icon",
+                "field_help_text": "Please upload image from here",
+                "field_default_text": "themes/bakestore/assets/img/youtube.png",
+                "field_type": "photo upload"
+            },
+            {
+                "field_name": "Social Icon Link",
+                "field_slug": "homepage-footer-social-icon-link",
+                "field_help_text": "Please add social icon link here",
+                "field_default_text": "https://www.youtube.com/",
+                "field_type": "text"
+            }
+        ]
+    }
+]

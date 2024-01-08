@@ -1,0 +1,205 @@
+[
+    {
+        "section_name": "Home - Header",
+        "section_slug": "home-header",
+        "unique_section_slug": "home-header",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title text",
+                "field_slug": "home-header-title-text",
+                "field_help_text": "Please add your title text here",
+                "field_default_text": "Modern and timeless clothes from the best stylists.",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub text",
+                "field_slug": "home-header-sub-text",
+                "field_help_text": "Please add your sub text here",
+                "field_default_text": "Featured collection",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Background Image",
+                "field_slug": "home-header-background-image",
+                "field_help_text": "Upload image here",
+                "field_default_text": "themes/glasses/assets/img/slider.png",
+                "field_type": "photo upload"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Search",
+        "section_slug": "home-search",
+        "unique_section_slug": "home-search",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Search product",
+                "field_slug": "home-search-search-product",
+                "field_help_text": "Please add your Search product text here",
+                "field_default_text": "Search product: ",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Search product ie",
+                "field_slug": "home-search-search-product-ie",
+                "field_help_text": "Please add your Search product ie here",
+                "field_default_text": "i.e. Eyewear,Bags,Shoes",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Featured product",
+        "section_slug": "home-featured-product",
+        "unique_section_slug": "home-featured-product",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Tile text",
+                "field_slug": "home-featured-product-tile-text",
+                "field_help_text": "Please add your text here",
+                "field_default_text": "Featured product",
+                "field_type": "text"
+            },
+            {
+                "field_name": "sub text",
+                "field_slug": "home-featured-product-sub-text",
+                "field_help_text": "Please add your text here",
+                "field_default_text": "Collection",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Categories featured collection",
+        "section_slug": "home-categories-featured-collection",
+        "unique_section_slug": "home-categories-featured-collection",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Top Text",
+                "field_slug": "home-categories-featured-collection-top-text",
+                "field_help_text": "Please add your text here",
+                "field_default_text": "Featured collection",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Title text",
+                "field_slug": "home-categories-featured-collection-title-text",
+                "field_help_text": "Please add your text here",
+                "field_default_text": "Categories",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Description",
+                "field_slug": "home-categories-featured-collection-description",
+                "field_help_text": "Please add your Description here",
+                "field_default_text": "Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Donec rutrum congue leo eget malesuada. Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Donec sollicitudin molestie malesuada. Vivamus suscipit tortor eget felis porttitor volutpat. Nulla quis lorem ut libero malesuada feugiat.",
+                "field_type": "text area"
+            },
+            {
+                "field_name": "Category",
+                "field_slug": "home-categories-featured-collection-category",
+                "field_help_text": "Please add your text here",
+                "field_default_text": "Category",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Category button text",
+                "field_slug": "home-categories-featured-collection-category-button-text",
+                "field_help_text": "Please add your text here",
+                "field_default_text": "Show more",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Bestsellers featured collection",
+        "section_slug": "home-bestsellers-featured-collection",
+        "unique_section_slug": "home-bestsellers-featured-collection",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "main text",
+                "field_slug": "home-bestsellers-featured-collection-main-text",
+                "field_help_text": "Please add your text here",
+                "field_default_text": "Featured collection",
+                "field_type": "text"
+            },
+            {
+                "field_name": "title text",
+                "field_slug": "home-bestsellers-featured-collection-title-text",
+                "field_help_text": "Please add your text here",
+                "field_default_text": "Bestsellers",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Trending collection",
+        "section_slug": "home-trending-collection",
+        "unique_section_slug": "home-trending-collection",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "main text",
+                "field_slug": "home-trending-collection-main-text",
+                "field_help_text": "Please add your text here",
+                "field_default_text": "Featured collection",
+                "field_type": "text"
+            },
+            {
+                "field_name": "title text",
+                "field_slug": "home-trending-collection-title-text",
+                "field_help_text": "Please add your text here",
+                "field_default_text": "Trending",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Footer",
+        "section_slug": "home-footer",
+        "unique_section_slug": "home-footer",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title text",
+                "field_slug": "home-footer-title-text",
+                "field_help_text": "Please add your text here",
+                "field_default_text": "Take advantage of loyalty programmer.",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Description",
+                "field_slug": "home-footer-description",
+                "field_help_text": "Please add your text here",
+                "field_default_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Nulla porttitor accumsan tincidunt.",
+                "field_type": "text area"
+            },
+            {
+                "field_name": "Background Image",
+                "field_slug": "home-footer-background-image",
+                "field_help_text": "upload image here",
+                "field_default_text": "themes/glasses/assets/img/slider.png",
+                "field_type": "photo upload"
+            }
+        ]
+    }
+]

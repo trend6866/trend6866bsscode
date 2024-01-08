@@ -1,0 +1,348 @@
+
+@php
+    $theme_json = $homepage_json;
+    $theme_name = !empty(env('DATA_INSERT_APP_THEME')) ? env('DATA_INSERT_APP_THEME') : APP_THEME();
+    $profile = asset(Storage::url('uploads/logo/'));
+    $theme_logo = \App\Models\Utility::GetValueByName('theme_logo',$theme_name);
+    $theme_logo = get_file($theme_logo , APP_THEME());
+@endphp
+    <header class="site-header header-style-one">
+        <div class="main-navigationbar">
+            <div class="container">
+                <div class="navigationbar-row d-flex justify-content-between align-items-center">
+                    <div class="logo-col">
+                        <h1>
+                            <a href="{{route('landing_page',$slug)}}">
+                                <img src="{{isset($theme_logo) && !empty($theme_logo) ? $theme_logo : 'themes/'.APP_THEME().'/assets/images/logo.svg'}}" >
+                            </a>
+                        </h1>
+                    </div>
+                    <div class="menu-items-col">
+                        <div class="search-form-wrapper-header desk-only">
+                            <form>
+                                <div class="form-inputs">
+                                    <input type="search" placeholder="Search Product..." class="form-control search_input" list="products" name="search_product" id="product">
+                                    <datalist id="products">
+                                        @foreach ($search_products as $pro_id => $pros)
+                                            <option value="{{$pros}}"></option>
+                                        @endforeach
+                                    </datalist>
+                                    <button type="submit"  class="btn search_product_globaly">
+                                        <svg>
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M0.000169754 6.99457C0.000169754 10.8576 3.13174 13.9891 6.99473 13.9891C8.60967 13.9891 10.0968 13.4418 11.2807 12.5226C11.3253 12.6169 11.3866 12.7053 11.4646 12.7834L17.0603 18.379C17.4245 18.7432 18.015 18.7432 18.3792 18.379C18.7434 18.0148 18.7434 17.4243 18.3792 17.0601L12.7835 11.4645C12.7055 11.3864 12.6171 11.3251 12.5228 11.2805C13.442 10.0966 13.9893 8.60951 13.9893 6.99457C13.9893 3.13157 10.8577 0 6.99473 0C3.13174 0 0.000169754 3.13157 0.000169754 6.99457ZM1.86539 6.99457C1.86539 4.1617 4.16187 1.86522 6.99473 1.86522C9.8276 1.86522 12.1241 4.1617 12.1241 6.99457C12.1241 9.82743 9.8276 12.1239 6.99473 12.1239C4.16187 12.1239 1.86539 9.82743 1.86539 6.99457Z">
+                                            </path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="search-header mobile-only">
+                            <a href="javascript:;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000169754 6.99457C0.000169754 10.8576 3.13174 13.9891 6.99473 13.9891C8.60967 13.9891 10.0968 13.4418 11.2807 12.5226C11.3253 12.6169 11.3866 12.7053 11.4646 12.7834L17.0603 18.379C17.4245 18.7432 18.015 18.7432 18.3792 18.379C18.7434 18.0148 18.7434 17.4243 18.3792 17.0601L12.7835 11.4645C12.7055 11.3864 12.6171 11.3251 12.5228 11.2805C13.442 10.0966 13.9893 8.60951 13.9893 6.99457C13.9893 3.13157 10.8577 0 6.99473 0C3.13174 0 0.000169754 3.13157 0.000169754 6.99457ZM1.86539 6.99457C1.86539 4.1617 4.16187 1.86522 6.99473 1.86522C9.8276 1.86522 12.1241 4.1617 12.1241 6.99457C12.1241 9.82743 9.8276 12.1239 6.99473 12.1239C4.16187 12.1239 1.86539 9.82743 1.86539 6.99457Z" fill="#ffffff"></path>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="menu-item-right">
+                            <ul class="main-nav">
+                                <li class="menu-lnk has-item">
+                                    <a href="#" class="active">
+                                        {{__('All products')}}
+                                    </a>
+                                    @if ($has_subcategory)
+                                    <div class="mega-menu menu-dropdown">
+                                        <div class="mega-menu-container container">
+                                            <ul class="row">
+                                                @foreach ($MainCategoryList as $category)
+                                                <li class="col-md-3 col-12">
+                                                    <ul class="megamenu-list arrow-list">
+                                                        <li class="list-title"><span>{{$category->name}}</span></li>
+                                                        <li><a href="{{route('page.product-list',[$slug,'main_category' => $category->id ])}}">{{ __('All') }}</a></li>
+                                                        @foreach ($SubCategoryList as $cat)
+                                                            @if ($cat->maincategory_id == $category->id)
+                                                                <li><a href="{{route('page.product-list',[$slug,'main_category' => $category->id,'sub_category' => $cat->id ])}}">{{$cat->name}}</a></li>
+                                                            @endif
+                                                        @endforeach
+                                                    </ul>
+                                                </li>
+                                                @endforeach
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    @else
+                                        <div class="menu-dropdown">
+                                            <ul>
+                                                @foreach ($MainCategoryList as $category)
+                                                    <li><a href="{{route('page.product-list',[$slug,'main_category' => $category->id ])}}">{{$category->name}}</a></li>
+                                                @endforeach
+                                            </ul>
+                                        </div>
+                                    @endif
+                                </li>
+                                <li class="menu-lnk has-item">
+                                    <a href="#">
+                                        {{__('Pages')}}
+                                    </a>
+                                    <div class="menu-dropdown">
+                                        <ul>
+                                            @foreach ($pages as $page)
+                                                <li><a href="{{ route('custom.page', [$slug,$page->page_slug]) }}">{{$page->name}}</a></li>
+                                            @endforeach
+                                            <li><a href="{{route('page.faq',$slug)}}"> {{ __('FAQs')}} </a></li>
+                                            <li><a href="{{route('page.blog',$slug)}}"> {{ __('Blog')}} </a></li>
+                                            <li><a href="{{route('page.product-list',$slug)}}"> {{ __('Collection')}} </a>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-lnk">
+                                    <a href="{{route('page.product-list',$slug)}}">
+                                        {{__('Shop All')}}
+                                    </a>
+                                </li>
+                                <li class="menu-lnk">
+                                    <a href="{{route('page.contact_us',$slug)}}">
+                                        {{ __('Contact') }}
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="menu-right d-flex align-items-center justify-content-end ">
+                                @auth
+                                <ul class="main-nav">
+                                    <li class="menu-lnk has-item">
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="18"
+                                                viewBox="0 0 15 18" fill="none" >
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M7.5 9.81818C4.27834 9.81818 1.66667 12.3824 1.66667 15.5455V17.1818C1.66667 17.6337 1.29357 18 0.833333 18C0.373096 18 0 17.6337 0 17.1818V15.5455C0 11.4786 3.35786 8.18182 7.5 8.18182C11.6421 8.18182 15 11.4786 15 15.5455V17.1818C15 17.6337 14.6269 18 14.1667 18C13.7064 18 13.3333 17.6337 13.3333 17.1818V15.5455C13.3333 12.3824 10.7217 9.81818 7.5 9.81818Z"
+                                                    fill="white" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M7.5 8.18182C9.34095 8.18182 10.8333 6.71657 10.8333 4.90909C10.8333 3.10161 9.34095 1.63636 7.5 1.63636C5.65905 1.63636 4.16667 3.10161 4.16667 4.90909C4.16667 6.71657 5.65905 8.18182 7.5 8.18182ZM7.5 9.81818C10.2614 9.81818 12.5 7.62031 12.5 4.90909C12.5 2.19787 10.2614 0 7.5 0C4.73858 0 2.5 2.19787 2.5 4.90909C2.5 7.62031 4.73858 9.81818 7.5 9.81818Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </a>
+                                        <div class="menu-dropdown">
+                                            <ul>
+                                                <li><a href="{{ route('my-account.index',$slug) }}" style="width: auto; background-color: transparent;">{{__('My Account')}}</a></li>
+                                                <li>
+                                                    <form method="POST" action="{{ route('logout_user',$slug) }}" id="form_logout">
+                                                        @csrf
+                                                        <a href="{{ route('logout',$slug) }}" onclick="event.preventDefault(); this.closest('form').submit();" style="background-color: transparent; width: auto;">{{__('Log Out')}}
+                                                        </a>
+                                                    </form>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <li class="heart-header">
+                                    <a href="javascript:;" title="wish" class="wish-header">
+                                        <div class="cart-header-sub">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20"
+                                                viewBox="0 0 20 16" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M10.6295 3.52275C10.2777 3.85668 9.7223 3.85668 9.37055 3.52275L8.74109 2.92517C8.00434 2.22574 7.00903 1.79867 5.90909 1.79867C3.64974 1.79867 1.81818 3.61057 1.81818 5.84567C1.81818 7.98845 2.99071 9.75782 4.68342 11.2116C6.37756 12.6666 8.40309 13.6316 9.61331 14.1241C9.86636 14.2271 10.1336 14.2271 10.3867 14.1241C11.5969 13.6316 13.6224 12.6666 15.3166 11.2116C17.0093 9.75782 18.1818 7.98845 18.1818 5.84567C18.1818 3.61057 16.3503 1.79867 14.0909 1.79867C12.991 1.79867 11.9957 2.22574 11.2589 2.92517L10.6295 3.52275ZM10 1.62741C8.93828 0.619465 7.49681 0 5.90909 0C2.64559 0 0 2.6172 0 5.84567C0 11.5729 6.33668 14.7356 8.92163 15.7875C9.61779 16.0708 10.3822 16.0708 11.0784 15.7875C13.6633 14.7356 20 11.5729 20 5.84567C20 2.6172 17.3544 0 14.0909 0C12.5032 0 11.0617 0.619465 10 1.62741Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </div>
+                                        {{-- <span class="count"></span> --}}
+                                    </a>
+                                </li>
+                                @endauth
+                                @guest
+                                    <li class="profile-header">
+                                        <a href="{{ route('login',$slug) }}">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="18"
+                                                viewBox="0 0 15 18" fill="none" >
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M7.5 9.81818C4.27834 9.81818 1.66667 12.3824 1.66667 15.5455V17.1818C1.66667 17.6337 1.29357 18 0.833333 18C0.373096 18 0 17.6337 0 17.1818V15.5455C0 11.4786 3.35786 8.18182 7.5 8.18182C11.6421 8.18182 15 11.4786 15 15.5455V17.1818C15 17.6337 14.6269 18 14.1667 18C13.7064 18 13.3333 17.6337 13.3333 17.1818V15.5455C13.3333 12.3824 10.7217 9.81818 7.5 9.81818Z"
+                                                    fill="white" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M7.5 8.18182C9.34095 8.18182 10.8333 6.71657 10.8333 4.90909C10.8333 3.10161 9.34095 1.63636 7.5 1.63636C5.65905 1.63636 4.16667 3.10161 4.16667 4.90909C4.16667 6.71657 5.65905 8.18182 7.5 8.18182ZM7.5 9.81818C10.2614 9.81818 12.5 7.62031 12.5 4.90909C12.5 2.19787 10.2614 0 7.5 0C4.73858 0 2.5 2.19787 2.5 4.90909C2.5 7.62031 4.73858 9.81818 7.5 9.81818Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </a>
+                                    </li>
+                                @endguest
+                            </ul>
+                            <ul class="menu-right-end">
+                                <li class="cart-header">
+                                    <a href="javascript:;">
+                                        <span class="icon-lable" >{{__('My Cart:')}} <b> <span id="sub_total_main_page">{{ 0 }}</span>{{__('USD')}}</b></span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                                            viewBox="0 0 19 19" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.91797 15.834C7.91797 17.1457 6.85465 18.209 5.54297 18.209C4.23129 18.209 3.16797 17.1457 3.16797 15.834C3.16797 14.5223 4.23129 13.459 5.54297 13.459C6.85465 13.459 7.91797 14.5223 7.91797 15.834ZM6.33464 15.834C6.33464 16.2712 5.98019 16.6257 5.54297 16.6257C5.10574 16.6257 4.7513 16.2712 4.7513 15.834C4.7513 15.3968 5.10574 15.0423 5.54297 15.0423C5.98019 15.0423 6.33464 15.3968 6.33464 15.834Z"
+                                                fill="white" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M15.8346 15.834C15.8346 17.1457 14.7713 18.209 13.4596 18.209C12.148 18.209 11.0846 17.1457 11.0846 15.834C11.0846 14.5223 12.148 13.459 13.4596 13.459C14.7713 13.459 15.8346 14.5223 15.8346 15.834ZM14.2513 15.834C14.2513 16.2712 13.8969 16.6257 13.4596 16.6257C13.0224 16.6257 12.668 16.2712 12.668 15.834C12.668 15.3968 13.0224 15.0423 13.4596 15.0423C13.8969 15.0423 14.2513 15.3968 14.2513 15.834Z"
+                                                fill="white" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M1.66578 2.01983C1.86132 1.62876 2.33685 1.47025 2.72792 1.66578L3.52236 2.06301C4.25803 2.43084 4.75101 3.15312 4.82547 3.97225L4.86335 4.38888C4.88188 4.59276 5.05283 4.74887 5.25756 4.74887H15.702C17.0838 4.74887 18.0403 6.12909 17.5551 7.42297L16.1671 11.1245C15.8195 12.0514 14.9333 12.6655 13.9433 12.6655H6.19479C4.96644 12.6655 3.94076 11.7289 3.82955 10.5056L3.24864 4.1156C3.22382 3.84255 3.05949 3.60179 2.81427 3.47918L2.01983 3.08196C1.62876 2.88643 1.47025 2.41089 1.66578 2.01983ZM5.47346 6.3322C5.2407 6.3322 5.05818 6.53207 5.07926 6.76388L5.40638 10.3622C5.44345 10.77 5.78534 11.0822 6.19479 11.0822H13.9433C14.2733 11.0822 14.5687 10.8775 14.6845 10.5685L16.0726 6.86702C16.1696 6.60825 15.9783 6.3322 15.702 6.3322H5.47346Z"
+                                                fill="white" />
+                                        </svg>
+                                        <span class="count" style="left: 74px;">{!! \App\Models\Cart::CartCount() !!}</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mobile-menu">
+                        <button class="mobile-menu-button" id="menu">
+                            <div class="one"></div>
+                            <div class="two"></div>
+                            <div class="three"></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu start here -->
+        <div class="mobile-menu-wrapper">
+            <div class="menu-close-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18">
+                    <path fill="#24272a"
+                        d="M19.95 16.75l-.05-.4-1.2-1-5.2-4.2c-.1-.05-.3-.2-.6-.5l-.7-.55c-.15-.1-.5-.45-1-1.1l-.1-.1c.2-.15.4-.35.6-.55l1.95-1.85 1.1-1c1-1 1.7-1.65 2.1-1.9l.5-.35c.4-.25.65-.45.75-.45.2-.15.45-.35.65-.6s.3-.5.3-.7l-.3-.65c-.55.2-1.2.65-2.05 1.35-.85.75-1.65 1.55-2.5 2.5-.8.9-1.6 1.65-2.4 2.3-.8.65-1.4.95-1.9 1-.15 0-1.5-1.05-4.1-3.2C3.1 2.6 1.45 1.2.7.55L.45.1c-.1.05-.2.15-.3.3C.05.55 0 .7 0 .85l.05.35.05.4 1.2 1 5.2 4.15c.1.05.3.2.6.5l.7.6c.15.1.5.45 1 1.1l.1.1c-.2.15-.4.35-.6.55l-1.95 1.85-1.1 1c-1 1-1.7 1.65-2.1 1.9l-.5.35c-.4.25-.65.45-.75.45-.25.15-.45.35-.65.6-.15.3-.25.55-.25.75l.3.65c.55-.2 1.2-.65 2.05-1.35.85-.75 1.65-1.55 2.5-2.5.8-.9 1.6-1.65 2.4-2.3.8-.65 1.4-.95 1.9-1 .15 0 1.5 1.05 4.1 3.2 2.6 2.15 4.3 3.55 5.05 4.2l.2.45c.1-.05.2-.15.3-.3.1-.15.15-.3.15-.45z" />
+                </svg>
+            </div>
+            <div class="mobile-menu-bar">
+                <ul>
+                    <li class="mobile-item has-children">
+                        <a href="#" class="acnav-label">
+                            {{__('Shop All')}}
+                            <svg class="menu-open-arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="11"
+                                viewBox="0 0 20 11">
+                                <path fill="#24272a"
+                                    d="M.268 1.076C.373.918.478.813.584.76l.21.474c.79.684 2.527 2.158 5.21 4.368 2.738 2.21 4.159 3.316 4.264 3.316.474-.053 1.158-.369 1.947-1.053.842-.631 1.632-1.42 2.474-2.368.895-.948 1.737-1.842 2.632-2.58.842-.789 1.578-1.262 2.105-1.42l.316.684c0 .21-.106.474-.316.737-.053.21-.263.421-.474.579-.053.052-.316.21-.737.474l-.526.368c-.421.263-1.105.947-2.158 2l-1.105 1.053-2.053 1.947c-1 .947-1.579 1.421-1.842 1.421-.263 0-.684-.263-1.158-.895-.526-.631-.842-1-1.052-1.105l-.737-.579c-.316-.316-.527-.474-.632-.474l-5.42-4.315L.267 2.339l-.105-.421-.053-.369c0-.157.053-.315.158-.473z" />
+                            </svg>
+                            <svg class="close-menu-ioc" xmlns="http://www.w3.org/2000/svg" width="20" height="18"
+                                viewBox="0 0 20 18">
+                                <path fill="#24272a"
+                                    d="M19.95 16.75l-.05-.4-1.2-1-5.2-4.2c-.1-.05-.3-.2-.6-.5l-.7-.55c-.15-.1-.5-.45-1-1.1l-.1-.1c.2-.15.4-.35.6-.55l1.95-1.85 1.1-1c1-1 1.7-1.65 2.1-1.9l.5-.35c.4-.25.65-.45.75-.45.2-.15.45-.35.65-.6s.3-.5.3-.7l-.3-.65c-.55.2-1.2.65-2.05 1.35-.85.75-1.65 1.55-2.5 2.5-.8.9-1.6 1.65-2.4 2.3-.8.65-1.4.95-1.9 1-.15 0-1.5-1.05-4.1-3.2C3.1 2.6 1.45 1.2.7.55L.45.1c-.1.05-.2.15-.3.3C.05.55 0 .7 0 .85l.05.35.05.4 1.2 1 5.2 4.15c.1.05.3.2.6.5l.7.6c.15.1.5.45 1 1.1l.1.1c-.2.15-.4.35-.6.55l-1.95 1.85-1.1 1c-1 1-1.7 1.65-2.1 1.9l-.5.35c-.4.25-.65.45-.75.45-.25.15-.45.35-.65.6-.15.3-.25.55-.25.75l.3.65c.55-.2 1.2-.65 2.05-1.35.85-.75 1.65-1.55 2.5-2.5.8-.9 1.6-1.65 2.4-2.3.8-.65 1.4-.95 1.9-1 .15 0 1.5 1.05 4.1 3.2 2.6 2.15 4.3 3.55 5.05 4.2l.2.45c.1-.05.2-.15.3-.3.1-.15.15-.3.15-.45z" />
+                            </svg>
+                        </a>
+                        @if ($has_subcategory)
+                            <ul class="mobile_menu_inner acnav-list">
+                                @foreach ($MainCategoryList as $category)
+                                    <li class="menu-h-link">
+                                        <ul>
+                                            <li>
+                                                <span>{{$category->name}}
+                                            </li>
+                                            <li>
+                                                <a href="{{route('page.product-list',[$slug,'main_category' => $category->id ])}}">{{ __('All') }}</a>
+                                            </li>
+                                            @foreach ($SubCategoryList as $cat)
+                                                @if ($cat->maincategory_id == $category->id)
+                                                    <li><a href="{{route('page.product-list',[$slug,'main_category' => $category->id,'sub_category' => $cat->id ])}}">{{$cat->name}}</a></li>
+                                                @endif
+                                            @endforeach
+                                        </ul>
+                                    </li>
+                                @endforeach
+                            </ul>
+                        @else
+                        <ul class="mobile_menu_inner acnav-list">
+                            <li class="menu-h-link">
+                                <ul>
+                                    @foreach ($MainCategoryList as $category)
+                                    <li>
+                                        <a href="{{route('page.product-list',[$slug,'main_category' => $category->id ])}}">{{$category->name}}</a>
+                                    </li>
+                                    @endforeach
+                                </ul>
+                            </li>
+                        </ul>
+                        @endif
+                    </li>
+                    <li class="mobile-item">
+                        <a href="{{route('page.product-list',$slug)}}"> {{ __('Collection')}} </a>
+                    </li>
+                    <li class="mobile-item has-children">
+                        <a href="#" class="acnav-label">
+                            {{__('Pages')}}
+                            <svg class="menu-open-arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="11"
+                                viewBox="0 0 20 11">
+                                <path fill="#24272a"
+                                    d="M.268 1.076C.373.918.478.813.584.76l.21.474c.79.684 2.527 2.158 5.21 4.368 2.738 2.21 4.159 3.316 4.264 3.316.474-.053 1.158-.369 1.947-1.053.842-.631 1.632-1.42 2.474-2.368.895-.948 1.737-1.842 2.632-2.58.842-.789 1.578-1.262 2.105-1.42l.316.684c0 .21-.106.474-.316.737-.053.21-.263.421-.474.579-.053.052-.316.21-.737.474l-.526.368c-.421.263-1.105.947-2.158 2l-1.105 1.053-2.053 1.947c-1 .947-1.579 1.421-1.842 1.421-.263 0-.684-.263-1.158-.895-.526-.631-.842-1-1.052-1.105l-.737-.579c-.316-.316-.527-.474-.632-.474l-5.42-4.315L.267 2.339l-.105-.421-.053-.369c0-.157.053-.315.158-.473z" />
+                            </svg>
+                            <svg class="close-menu-ioc" xmlns="http://www.w3.org/2000/svg" width="20" height="18"
+                                viewBox="0 0 20 18">
+                                <path fill="#24272a"
+                                    d="M19.95 16.75l-.05-.4-1.2-1-5.2-4.2c-.1-.05-.3-.2-.6-.5l-.7-.55c-.15-.1-.5-.45-1-1.1l-.1-.1c.2-.15.4-.35.6-.55l1.95-1.85 1.1-1c1-1 1.7-1.65 2.1-1.9l.5-.35c.4-.25.65-.45.75-.45.2-.15.45-.35.65-.6s.3-.5.3-.7l-.3-.65c-.55.2-1.2.65-2.05 1.35-.85.75-1.65 1.55-2.5 2.5-.8.9-1.6 1.65-2.4 2.3-.8.65-1.4.95-1.9 1-.15 0-1.5-1.05-4.1-3.2C3.1 2.6 1.45 1.2.7.55L.45.1c-.1.05-.2.15-.3.3C.05.55 0 .7 0 .85l.05.35.05.4 1.2 1 5.2 4.15c.1.05.3.2.6.5l.7.6c.15.1.5.45 1 1.1l.1.1c-.2.15-.4.35-.6.55l-1.95 1.85-1.1 1c-1 1-1.7 1.65-2.1 1.9l-.5.35c-.4.25-.65.45-.75.45-.25.15-.45.35-.65.6-.15.3-.25.55-.25.75l.3.65c.55-.2 1.2-.65 2.05-1.35.85-.75 1.65-1.55 2.5-2.5.8-.9 1.6-1.65 2.4-2.3.8-.65 1.4-.95 1.9-1 .15 0 1.5 1.05 4.1 3.2 2.6 2.15 4.3 3.55 5.05 4.2l.2.45c.1-.05.2-.15.3-.3.1-.15.15-.3.15-.45z" />
+                            </svg>
+                        </a>
+                        <ul class="mobile_menu_inner acnav-list">
+                            <li class="menu-h-link">
+                                <ul>
+                                    @foreach ($pages as $page)
+                                        <li><a href="{{ route('custom.page', [$slug,$page->page_slug]) }}">{{$page->name}}</a></li>
+                                    @endforeach
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mobile-item">
+                        <a href="{{route('page.contact_us',$slug)}}">
+                            {{ __('Contact') }}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Mobile menu end here -->
+        <!--serch popup start here-->
+        <div class="search-popup">
+            <div class="close-search">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                    <path
+                        d="M27.7618 25.0008L49.4275 3.33503C50.1903 2.57224 50.1903 1.33552 49.4275 0.572826C48.6647 -0.189868 47.428 -0.189965 46.6653 0.572826L24.9995 22.2386L3.33381 0.572826C2.57102 -0.189965 1.3343 -0.189965 0.571605 0.572826C-0.191089 1.33562 -0.191186 2.57233 0.571605 3.33503L22.2373 25.0007L0.571605 46.6665C-0.191186 47.4293 -0.191186 48.666 0.571605 49.4287C0.952952 49.81 1.45285 50.0007 1.95275 50.0007C2.45266 50.0007 2.95246 49.81 3.3339 49.4287L24.9995 27.763L46.6652 49.4287C47.0465 49.81 47.5464 50.0007 48.0463 50.0007C48.5462 50.0007 49.046 49.81 49.4275 49.4287C50.1903 48.6659 50.1903 47.4292 49.4275 46.6665L27.7618 25.0008Z"
+                        fill="white"></path>
+                </svg>
+            </div>
+            <div class="search-form-wrapper">
+                <form>
+                    <div class="form-inputs">
+                        <input type="search" placeholder="Search Product..." class="form-control search_input" list="products" name="search_product" id="product">
+                        <datalist id="products">
+                            @foreach ($search_products as $pro_id => $pros)
+                                <option value="{{$pros}}"></option>
+                            @endforeach
+                        </datalist>
+
+                        <button type="submit"  class="btn search_product_globaly">
+                            <svg>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.000169754 6.99457C0.000169754 10.8576 3.13174 13.9891 6.99473 13.9891C8.60967 13.9891 10.0968 13.4418 11.2807 12.5226C11.3253 12.6169 11.3866 12.7053 11.4646 12.7834L17.0603 18.379C17.4245 18.7432 18.015 18.7432 18.3792 18.379C18.7434 18.0148 18.7434 17.4243 18.3792 17.0601L12.7835 11.4645C12.7055 11.3864 12.6171 11.3251 12.5228 11.2805C13.442 10.0966 13.9893 8.60951 13.9893 6.99457C13.9893 3.13157 10.8577 0 6.99473 0C3.13174 0 0.000169754 3.13157 0.000169754 6.99457ZM1.86539 6.99457C1.86539 4.1617 4.16187 1.86522 6.99473 1.86522C9.8276 1.86522 12.1241 4.1617 12.1241 6.99457C12.1241 9.82743 9.8276 12.1239 6.99473 12.1239C4.16187 12.1239 1.86539 9.82743 1.86539 6.99457Z">
+                                </path>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!--serch popup ends here-->
+    </header>
+        @push('page-script')
+            <script>
+                $(document).ready(function(){
+                    $(".search_product_globaly").on('click',function(e){
+                        e.preventDefault();
+                        var product = $('.search_input').val();
+
+                        var data = {
+                            product   : product,
+                        }
+
+                        $.ajax({
+                            url:  '{{route('search.product',$slug)}}',
+                            context: this,
+                            data: data,
+                            success: function(responce) {
+                                window.location.href =responce;
+                            }
+                        });
+                });
+                });
+            </script>
+        @endpush

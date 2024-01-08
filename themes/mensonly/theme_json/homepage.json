@@ -1,0 +1,167 @@
+[
+    {
+        "section_name": "Home - Header",
+        "section_slug": "homepage-header",
+        "unique_section_slug": "homepage-header",
+        "section_enable": "on",
+        "array_type": "multi-inner-list",
+        "loop_number": "3",
+        "inner-list": [
+            {
+                "field_name": "Background image",
+                "field_slug": "homepage-header-bg-img",
+                "field_help_text": "Please upload image from here",
+                "field_default_text": "themes/giftsmobileapp/assets/img/gift-home.png",
+                "field_type": "photo upload"
+            },
+            {
+                "field_name": "Heading",
+                "field_slug": "homepage-header-heading",
+                "field_help_text": "Please add heading text here",
+                "field_default_text": "Gifty.",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-header-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "Gifts foru2028all occasions ",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Text",
+                "field_slug": "homepage-header-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "field_type": "text area"
+            },
+            {
+                "field_name": "Button Text",
+                "field_slug": "homepage-header-btn-text",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "Check more products",
+                "field_type": "button"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Products",
+        "section_slug": "homepage-products",
+        "unique_section_slug": "homepage-products",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-products-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "Gifts foru2028all occasions ",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Review",
+        "section_slug": "homepage-review",
+        "unique_section_slug": "homepage-review",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Heading",
+                "field_slug": "homepage-review-heading",
+                "field_help_text": "Please add heading text here",
+                "field_default_text": "Gifty.",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-review-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "Gifts foru2028all occasions ",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Text",
+                "field_slug": "homepage-review-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "field_type": "text area"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Categories",
+        "section_slug": "homepage-categories",
+        "unique_section_slug": "homepage-categories",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-categories-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "Categories:",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Bestproducts",
+        "section_slug": "homepage-bestproducts",
+        "unique_section_slug": "homepage-bestproducts",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-bestproducts-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "Gifts foru2028all occasions ",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Button Text",
+                "field_slug": "homepage-bestproducts-btn-text",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "Show more products",
+                "field_type": "button"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Newsletter",
+        "section_slug": "homepage-newsletter",
+        "unique_section_slug": "homepage-newsletter",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-newsletter-title-text",
+                "field_help_text": "Please add title text  here",
+                "field_default_text": "Gifts foru2028all occasions ",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Text",
+                "field_slug": "homepage-newsletter-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "field_type": "text area"
+            },
+            {
+                "field_name": "Description",
+                "field_slug": "homepage-newsletter-description",
+                "field_help_text": "Please add description text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "field_type": "text area"
+            }
+        ]
+    }
+]

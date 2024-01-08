@@ -1,0 +1,25 @@
+[
+    {
+        "section_name": "Order Complate",
+        "section_slug": "order-complate",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "title",
+                "field_slug": "order-complate",
+                "field_help_text": "Please add your title text here",
+                "field_default_text": "Your order has been placed!",
+                "field_type": "text"
+            },
+            {
+                "field_name": "description",
+                "field_slug": "order-complate",
+                "field_help_text": "Please add your title text here",
+                "field_default_text": "Your order has been successfully processed! Please direct any questions you have to the store owner. Thanks for shopping with us online!",
+                "field_type": "text area"
+            }
+        ]
+    }
+]

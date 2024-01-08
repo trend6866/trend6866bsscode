@@ -1,0 +1,171 @@
+[
+    {
+        "section_name": "Home - Header",
+        "section_slug": "homepage-header",
+        "unique_section_slug": "homepage-header",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "TItle Text1",
+                "field_slug": "homepage-header-title-text1",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "MENS FASHION",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Text1",
+                "field_slug": "homepage-header-sub-text1",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "field_type": "text area"
+            },
+            {
+                "field_name": "Button1",
+                "field_slug": "homepage-header-btn1",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "SHOW MORE",
+                "field_type": "button"
+            },
+            {
+                "field_name": "TItle Text2",
+                "field_slug": "homepage-header-title-text2",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "MENS FASHION",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Text2",
+                "field_slug": "homepage-header-sub-text2",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "field_type": "text area"
+            },
+            {
+                "field_name": "Button2",
+                "field_slug": "homepage-header-btn2",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "SHOW MORE",
+                "field_type": "button"
+            },
+            {
+                "field_name": "TItle Text3",
+                "field_slug": "homepage-header-title-text3",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "MENS FASHION",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Text3",
+                "field_slug": "homepage-header-sub-text3",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "field_type": "text area"
+            },
+            {
+                "field_name": "Button3",
+                "field_slug": "homepage-header-btn3",
+                "field_help_text": "Please add button text here",
+                "field_default_text": "SHOW MORE",
+                "field_type": "button"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Feature - Products",
+        "section_slug": "homepage-feature-products",
+        "unique_section_slug": "homepage-feature-products",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Heading",
+                "field_slug": "homepage-feature-products-heading",
+                "field_help_text": "Please add heading text here",
+                "field_default_text": "MEN",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-feature-products-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "FEATURED products",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Products",
+        "section_slug": "homepage-products",
+        "unique_section_slug": "homepage-products",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Heading",
+                "field_slug": "homepage-products-heading",
+                "field_help_text": "Please add heading text here",
+                "field_default_text": "MEN",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-products-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "Skincare products",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Trending - Products ",
+        "section_slug": "homepage-trending-products",
+        "unique_section_slug": "homepage-trending-products",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Heading",
+                "field_slug": "homepage-trending-products-heading",
+                "field_help_text": "Please add heading text here",
+                "field_default_text": "MEN",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-trending-products-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "MENS TRENDING PRODUCTS",
+                "field_type": "text"
+            }
+        ]
+    },
+    {
+        "section_name": "Home - Newsletter",
+        "section_slug": "homepage-newsletter",
+        "unique_section_slug": "homepage-newsletter",
+        "section_enable": "on",
+        "array_type": "inner-list",
+        "loop_number": "1",
+        "inner-list": [
+            {
+                "field_name": "Title Text",
+                "field_slug": "homepage-newsletter-title-text",
+                "field_help_text": "Please add title text here",
+                "field_default_text": "Subscribe newsletter and get -20% off",
+                "field_type": "text"
+            },
+            {
+                "field_name": "Sub Text",
+                "field_slug": "homepage-newsletter-sub-text",
+                "field_help_text": "Please add sub text here",
+                "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "field_type": "text area"
+            }
+        ]
+    }
+]
